@@ -48,7 +48,6 @@ class TrainTrees:
 
         recurse(0, 1, [])
 
-
         return ors
 
     @staticmethod
@@ -76,10 +75,10 @@ class TrainTrees:
         c50f_data = base_name + '.data'
         c50f_test = base_name + '.test'
 
-        train_data = np.loadtxt(f'{_dir_path}/{c50f_data}', dtype='int', delimiter=',')
+        _train_data = np.loadtxt(f'{_dir_path}/{c50f_data}', dtype='int', delimiter=',')
         test_data = np.loadtxt(f'{_dir_path}/{c50f_test}', dtype='int', delimiter=',')
-        feature_names = list(map(str, list(range(train_data.shape[1]))))
-        tree, acc_tree = self.train_tree(_max_depth, train_data, test_data)
+        feature_names = list(map(str, list(range(_train_data.shape[1]))))
+        tree, acc_tree = self.train_tree(_max_depth, _train_data, test_data)
         sop_tree = self.tree_to_sop(tree, feature_names)
 
         expr = self.pythonize_sop(sop_tree)
@@ -225,36 +224,51 @@ if __name__ == '__main__':
     acc_tree_means = []
     acc_tree_mean_dict = {}
 
-    TrainTrees().aig_maker(dir_path)
-    TrainTrees().mltest_data_maker()
+    # TrainTrees().aig_maker(dir_path)
+    # TrainTrees().mltest_data_maker()
 
-    # for test in tests:
-    #     output_string = ''
-    #     print('base_name acc_tree')
-    #     total_acc_tree = 0
-    #
-    #     print('*' * 20)
-    #     print(f'_max_depth = {test}')
-    #     max_depth = test
-    #
-    #     results = []
-    #     count = 0
-    #     with concurrent.futures.ProcessPoolExecutor() as executor:
-    #         for path in os.listdir(dir_path):
-    #             if '.train' not in path:
-    #                 continue
-    #             # if count == 1:
-    #             #     break
-    #             count += 1
-    #
-    #             results.append(executor.submit(TrainTrees().mix_train_valid, dir_path, path))
-    #
-    #         for r in results:
-    #             train_data, valid_data, ex = r.result()
-    #
-    #             train_output = open(f'mix_train_valid/train/{ex}.train.pla', 'w+')
-    #             valid_output = open(f'mix_train_valid/valid/{ex}.valid.pla', 'w+')
-    #             train_output.write(train_data)
-    #             valid_output.write(valid_data)
-    #             train_output.close()
-    #             valid_output.close()
+    for test in tests:
+        output_string = ''
+        print('base_name acc_tree')
+        total_acc_tree = 0
+
+        print('*' * 20)
+        print(f'_max_depth = {test}')
+        max_depth = test
+
+        results = []
+        count = 0
+        # with concurrent.futures.ProcessPoolExecutor() as executor:
+        #     for path in os.listdir(dir_path):
+        #         if '.train' not in path:
+        #             continue
+        #         # if count == 1:
+        #         #     break
+        #         count += 1
+        #
+        #         results.append(executor.submit(TrainTrees().mix_train_valid, dir_path, path))
+        #
+        #     for r in results:
+        #         train_data, valid_data, ex = r.result()
+        #
+        #         train_output = open(f'mix_train_valid/train/{ex}.train.pla', 'w+')
+        #         valid_output = open(f'mix_train_valid/valid/{ex}.valid.pla', 'w+')
+        #         train_output.write(train_data)
+        #         valid_output.write(valid_data)
+        #         train_output.close()
+        #         valid_output.close()
+
+        with concurrent.futures.ProcessPoolExecutor() as executor:
+            for path in os.listdir(dir_path):
+                if '.train' not in path:
+                    continue
+                # if count == 1:
+                #     break
+                count += 1
+
+                results.append(executor.submit(TrainTrees().execute_methods, dir_path, path, 15))
+
+            for r in results:
+                out_str, tot_ac_tr, exp = r.result()
+
+                expr_output = open('')
