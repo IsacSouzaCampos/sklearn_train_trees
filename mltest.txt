@@ -1,0 +1,400 @@
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex76.train[0m : i/o =     16/      1  [1;36mand =    4259[0m  [1;35mlev =   32[0m [1;35m(32.00)[0m  mem = 0.05 MB
+Cannot open file "mix_train_valid/valid/ex76.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex59.train[0m : i/o =    394/      1  [1;36mand =  435569[0m  [1;35mlev =  267[0m [1;35m(267.00)[0m  mem = 4.99 MB
+Cannot open file "mix_train_valid/valid/ex59.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex75.train[0m : i/o =     16/      1  [1;36mand =    9918[0m  [1;35mlev =   35[0m [1;35m(35.00)[0m  mem = 0.11 MB
+Cannot open file "mix_train_valid/valid/ex75.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex48.train[0m : i/o =    256/      1  [1;36mand =  274126[0m  [1;35mlev =  181[0m [1;35m(181.00)[0m  mem = 3.14 MB
+Cannot open file "mix_train_valid/valid/ex48.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex02.train[0m : i/o =     64/      1  [1;36mand =   69462[0m  [1;35mlev =   69[0m [1;35m(69.00)[0m  mem = 0.80 MB
+Cannot open file "mix_train_valid/valid/ex02.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex06.train[0m : i/o =    256/      1  [1;36mand =  287561[0m  [1;35mlev =  186[0m [1;35m(186.00)[0m  mem = 3.30 MB
+Cannot open file "mix_train_valid/valid/ex06.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex39.train[0m : i/o =    200/      1  [1;36mand =  228417[0m  [1;35mlev =  152[0m [1;35m(152.00)[0m  mem = 2.62 MB
+Cannot open file "mix_train_valid/valid/ex39.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex88.train[0m : i/o =    196/      1  [1;36mand =   83316[0m  [1;35mlev =  310[0m [1;35m(310.00)[0m  mem = 0.96 MB
+Cannot open file "mix_train_valid/valid/ex88.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex64.train[0m : i/o =     47/      1  [1;36mand =   24288[0m  [1;35mlev =   56[0m [1;35m(56.00)[0m  mem = 0.28 MB
+Cannot open file "mix_train_valid/valid/ex64.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex99.train[0m : i/o =    768/      1  [1;36mand =  548608[0m  [1;35mlev = 1072[0m [1;35m(1072.00)[0m  mem = 6.29 MB
+Cannot open file "mix_train_valid/valid/ex99.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex22.train[0m : i/o =     32/      1  [1;36mand =   32326[0m  [1;35mlev =   50[0m [1;35m(50.00)[0m  mem = 0.37 MB
+Cannot open file "mix_train_valid/valid/ex22.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex36.train[0m : i/o =    140/      1  [1;36mand =  155616[0m  [1;35mlev =  123[0m [1;35m(123.00)[0m  mem = 1.78 MB
+Cannot open file "mix_train_valid/valid/ex36.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex91.train[0m : i/o =    768/      1  [1;36mand =  590174[0m  [1;35mlev =  922[0m [1;35m(922.00)[0m  mem = 6.77 MB
+Cannot open file "mix_train_valid/valid/ex91.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex43.train[0m : i/o =     18/      1  [1;36mand =   12586[0m  [1;35mlev =   39[0m [1;35m(39.00)[0m  mem = 0.15 MB
+Cannot open file "mix_train_valid/valid/ex43.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex96.train[0m : i/o =    768/      1  [1;36mand =  583460[0m  [1;35mlev = 1080[0m [1;35m(1080.00)[0m  mem = 6.69 MB
+Cannot open file "mix_train_valid/valid/ex96.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex49.train[0m : i/o =    130/      1  [1;36mand =  146792[0m  [1;35mlev =  109[0m [1;35m(109.00)[0m  mem = 1.68 MB
+Cannot open file "mix_train_valid/valid/ex49.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex57.train[0m : i/o =     24/      1  [1;36mand =    7051[0m  [1;35mlev =   38[0m [1;35m(38.00)[0m  mem = 0.08 MB
+Cannot open file "mix_train_valid/valid/ex57.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex31.train[0m : i/o =     40/      1  [1;36mand =   41108[0m  [1;35mlev =   54[0m [1;35m(54.00)[0m  mem = 0.47 MB
+Cannot open file "mix_train_valid/valid/ex31.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex30.train[0m : i/o =     20/      1  [1;36mand =   14892[0m  [1;35mlev =   38[0m [1;35m(38.00)[0m  mem = 0.17 MB
+Cannot open file "mix_train_valid/valid/ex30.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex65.train[0m : i/o =     19/      1  [1;36mand =    9098[0m  [1;35mlev =   36[0m [1;35m(36.00)[0m  mem = 0.11 MB
+Cannot open file "mix_train_valid/valid/ex65.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex17.train[0m : i/o =    128/      1  [1;36mand =  144774[0m  [1;35mlev =  111[0m [1;35m(111.00)[0m  mem = 1.66 MB
+Cannot open file "mix_train_valid/valid/ex17.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex38.train[0m : i/o =    180/      1  [1;36mand =  204109[0m  [1;35mlev =  141[0m [1;35m(141.00)[0m  mem = 2.34 MB
+Cannot open file "mix_train_valid/valid/ex38.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex82.train[0m : i/o =    196/      1  [1;36mand =   90789[0m  [1;35mlev =  306[0m [1;35m(306.00)[0m  mem = 1.04 MB
+Cannot open file "mix_train_valid/valid/ex82.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex73.train[0m : i/o =     16/      1  [1;36mand =   10353[0m  [1;35mlev =   34[0m [1;35m(34.00)[0m  mem = 0.12 MB
+Cannot open file "mix_train_valid/valid/ex73.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex77.train[0m : i/o =     16/      1  [1;36mand =   12337[0m  [1;35mlev =   36[0m [1;35m(36.00)[0m  mem = 0.14 MB
+Cannot open file "mix_train_valid/valid/ex77.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex69.train[0m : i/o =     16/      1  [1;36mand =    4510[0m  [1;35mlev =   31[0m [1;35m(31.00)[0m  mem = 0.05 MB
+Cannot open file "mix_train_valid/valid/ex69.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex16.train[0m : i/o =     64/      1  [1;36mand =   69979[0m  [1;35mlev =   70[0m [1;35m(70.00)[0m  mem = 0.80 MB
+Cannot open file "mix_train_valid/valid/ex16.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex08.train[0m : i/o =    512/      1  [1;36mand =  557712[0m  [1;35mlev =  317[0m [1;35m(317.00)[0m  mem = 6.39 MB
+Cannot open file "mix_train_valid/valid/ex08.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex79.train[0m : i/o =     16/      1  [1;36mand =   12337[0m  [1;35mlev =   36[0m [1;35m(36.00)[0m  mem = 0.14 MB
+Cannot open file "mix_train_valid/valid/ex79.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex11.train[0m : i/o =     64/      1  [1;36mand =   48836[0m  [1;35mlev =   70[0m [1;35m(70.00)[0m  mem = 0.56 MB
+Cannot open file "mix_train_valid/valid/ex11.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex70.train[0m : i/o =     23/      1  [1;36mand =   34111[0m  [1;35mlev =   41[0m [1;35m(41.00)[0m  mem = 0.39 MB
+Cannot open file "mix_train_valid/valid/ex70.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex18.train[0m : i/o =    256/      1  [1;36mand =  289407[0m  [1;35mlev =  184[0m [1;35m(184.00)[0m  mem = 3.32 MB
+Cannot open file "mix_train_valid/valid/ex18.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex12.train[0m : i/o =    128/      1  [1;36mand =  102474[0m  [1;35mlev =  109[0m [1;35m(109.00)[0m  mem = 1.18 MB
+Cannot open file "mix_train_valid/valid/ex12.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex09.train[0m : i/o =    512/      1  [1;36mand =  544672[0m  [1;35mlev =  329[0m [1;35m(329.00)[0m  mem = 6.24 MB
+Cannot open file "mix_train_valid/valid/ex09.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex41.train[0m : i/o =     10/      1  [1;36mand =     609[0m  [1;35mlev =   20[0m [1;35m(20.00)[0m  mem = 0.01 MB
+Cannot open file "mix_train_valid/valid/ex41.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex61.train[0m : i/o =     37/      1  [1;36mand =   19824[0m  [1;35mlev =   49[0m [1;35m(49.00)[0m  mem = 0.23 MB
+Cannot open file "mix_train_valid/valid/ex61.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex42.train[0m : i/o =     32/      1  [1;36mand =   32297[0m  [1;35mlev =   47[0m [1;35m(47.00)[0m  mem = 0.37 MB
+Cannot open file "mix_train_valid/valid/ex42.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex95.train[0m : i/o =    768/      1  [1;36mand =  523634[0m  [1;35mlev =  970[0m [1;35m(970.00)[0m  mem = 6.01 MB
+Cannot open file "mix_train_valid/valid/ex95.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex84.train[0m : i/o =    196/      1  [1;36mand =   81813[0m  [1;35mlev =  332[0m [1;35m(332.00)[0m  mem = 0.94 MB
+Cannot open file "mix_train_valid/valid/ex84.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex83.train[0m : i/o =    196/      1  [1;36mand =   95565[0m  [1;35mlev =  305[0m [1;35m(305.00)[0m  mem = 1.10 MB
+Cannot open file "mix_train_valid/valid/ex83.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex62.train[0m : i/o =     52/      1  [1;36mand =   89082[0m  [1;35mlev =   65[0m [1;35m(65.00)[0m  mem = 1.02 MB
+Cannot open file "mix_train_valid/valid/ex62.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex67.train[0m : i/o =     46/      1  [1;36mand =   72508[0m  [1;35mlev =   59[0m [1;35m(59.00)[0m  mem = 0.83 MB
+Cannot open file "mix_train_valid/valid/ex67.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex32.train[0m : i/o =     60/      1  [1;36mand =   64708[0m  [1;35mlev =   71[0m [1;35m(71.00)[0m  mem = 0.74 MB
+Cannot open file "mix_train_valid/valid/ex32.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex44.train[0m : i/o =     64/      1  [1;36mand =   69977[0m  [1;35mlev =   72[0m [1;35m(72.00)[0m  mem = 0.80 MB
+Cannot open file "mix_train_valid/valid/ex44.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex03.train[0m : i/o =     64/      1  [1;36mand =   69087[0m  [1;35mlev =   71[0m [1;35m(71.00)[0m  mem = 0.79 MB
+Cannot open file "mix_train_valid/valid/ex03.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex40.train[0m : i/o =     16/      1  [1;36mand =    8704[0m  [1;35mlev =   34[0m [1;35m(34.00)[0m  mem = 0.10 MB
+Cannot open file "mix_train_valid/valid/ex40.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex55.train[0m : i/o =     42/      1  [1;36mand =   19588[0m  [1;35mlev =   53[0m [1;35m(53.00)[0m  mem = 0.23 MB
+Cannot open file "mix_train_valid/valid/ex55.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex19.train[0m : i/o =    512/      1  [1;36mand =  557089[0m  [1;35mlev =  322[0m [1;35m(322.00)[0m  mem = 6.38 MB
+Cannot open file "mix_train_valid/valid/ex19.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex72.train[0m : i/o =     35/      1  [1;36mand =   18312[0m  [1;35mlev =   50[0m [1;35m(50.00)[0m  mem = 0.21 MB
+Cannot open file "mix_train_valid/valid/ex72.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex20.train[0m : i/o =     16/      1  [1;36mand =    9175[0m  [1;35mlev =   35[0m [1;35m(35.00)[0m  mem = 0.11 MB
+Cannot open file "mix_train_valid/valid/ex20.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex23.train[0m : i/o =     32/      1  [1;36mand =   32318[0m  [1;35mlev =   47[0m [1;35m(47.00)[0m  mem = 0.37 MB
+Cannot open file "mix_train_valid/valid/ex23.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex86.train[0m : i/o =    196/      1  [1;36mand =   87242[0m  [1;35mlev =  308[0m [1;35m(308.00)[0m  mem = 1.00 MB
+Cannot open file "mix_train_valid/valid/ex86.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex51.train[0m : i/o =     44/      1  [1;36mand =   47681[0m  [1;35mlev =   56[0m [1;35m(56.00)[0m  mem = 0.55 MB
+Cannot open file "mix_train_valid/valid/ex51.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex46.train[0m : i/o =    128/      1  [1;36mand =  143773[0m  [1;35mlev =  108[0m [1;35m(108.00)[0m  mem = 1.65 MB
+Cannot open file "mix_train_valid/valid/ex46.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex71.train[0m : i/o =     23/      1  [1;36mand =    4442[0m  [1;35mlev =   37[0m [1;35m(37.00)[0m  mem = 0.05 MB
+Cannot open file "mix_train_valid/valid/ex71.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex37.train[0m : i/o =    160/      1  [1;36mand =  176867[0m  [1;35mlev =  127[0m [1;35m(127.00)[0m  mem = 2.03 MB
+Cannot open file "mix_train_valid/valid/ex37.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex58.train[0m : i/o =     80/      1  [1;36mand =   44856[0m  [1;35mlev =   77[0m [1;35m(77.00)[0m  mem = 0.52 MB
+Cannot open file "mix_train_valid/valid/ex58.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex27.train[0m : i/o =    128/      1  [1;36mand =  140652[0m  [1;35mlev =  107[0m [1;35m(107.00)[0m  mem = 1.61 MB
+Cannot open file "mix_train_valid/valid/ex27.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex47.train[0m : i/o =     66/      1  [1;36mand =   72335[0m  [1;35mlev =   72[0m [1;35m(72.00)[0m  mem = 0.83 MB
+Cannot open file "mix_train_valid/valid/ex47.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex21.train[0m : i/o =     16/      1  [1;36mand =    8037[0m  [1;35mlev =   36[0m [1;35m(36.00)[0m  mem = 0.09 MB
+Cannot open file "mix_train_valid/valid/ex21.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex25.train[0m : i/o =     64/      1  [1;36mand =   70518[0m  [1;35mlev =   71[0m [1;35m(71.00)[0m  mem = 0.81 MB
+Cannot open file "mix_train_valid/valid/ex25.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex24.train[0m : i/o =     64/      1  [1;36mand =   69847[0m  [1;35mlev =   71[0m [1;35m(71.00)[0m  mem = 0.80 MB
+Cannot open file "mix_train_valid/valid/ex24.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex60.train[0m : i/o =     43/      1  [1;36mand =   29796[0m  [1;35mlev =   55[0m [1;35m(55.00)[0m  mem = 0.34 MB
+Cannot open file "mix_train_valid/valid/ex60.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex33.train[0m : i/o =     80/      1  [1;36mand =   86647[0m  [1;35mlev =   83[0m [1;35m(83.00)[0m  mem = 0.99 MB
+Cannot open file "mix_train_valid/valid/ex33.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex98.train[0m : i/o =    768/      1  [1;36mand =  577342[0m  [1;35mlev =  917[0m [1;35m(917.00)[0m  mem = 6.62 MB
+Cannot open file "mix_train_valid/valid/ex98.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex00.train[0m : i/o =     32/      1  [1;36mand =   32414[0m  [1;35mlev =   48[0m [1;35m(48.00)[0m  mem = 0.37 MB
+Cannot open file "mix_train_valid/valid/ex00.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex74.train[0m : i/o =     16/      1  [1;36mand =    9715[0m  [1;35mlev =   51[0m [1;35m(51.00)[0m  mem = 0.11 MB
+Cannot open file "mix_train_valid/valid/ex74.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex15.train[0m : i/o =     32/      1  [1;36mand =   31671[0m  [1;35mlev =   47[0m [1;35m(47.00)[0m  mem = 0.36 MB
+Cannot open file "mix_train_valid/valid/ex15.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex87.train[0m : i/o =    196/      1  [1;36mand =   91332[0m  [1;35mlev =  309[0m [1;35m(309.00)[0m  mem = 1.05 MB
+Cannot open file "mix_train_valid/valid/ex87.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex14.train[0m : i/o =    512/      1  [1;36mand =  397611[0m  [1;35mlev =  320[0m [1;35m(320.00)[0m  mem = 4.56 MB
+Cannot open file "mix_train_valid/valid/ex14.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex52.train[0m : i/o =     59/      1  [1;36mand =   64535[0m  [1;35mlev =   66[0m [1;35m(66.00)[0m  mem = 0.74 MB
+Cannot open file "mix_train_valid/valid/ex52.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex92.train[0m : i/o =    768/      1  [1;36mand =  621396[0m  [1;35mlev = 1084[0m [1;35m(1084.00)[0m  mem = 7.12 MB
+Cannot open file "mix_train_valid/valid/ex92.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex97.train[0m : i/o =    768/      1  [1;36mand =  588531[0m  [1;35mlev = 1080[0m [1;35m(1080.00)[0m  mem = 6.75 MB
+Cannot open file "mix_train_valid/valid/ex97.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex13.train[0m : i/o =    256/      1  [1;36mand =  207117[0m  [1;35mlev =  178[0m [1;35m(178.00)[0m  mem = 2.38 MB
+Cannot open file "mix_train_valid/valid/ex13.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex01.train[0m : i/o =     32/      1  [1;36mand =   31232[0m  [1;35mlev =   48[0m [1;35m(48.00)[0m  mem = 0.36 MB
+Cannot open file "mix_train_valid/valid/ex01.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex89.train[0m : i/o =    196/      1  [1;36mand =   81331[0m  [1;35mlev =  304[0m [1;35m(304.00)[0m  mem = 0.93 MB
+Cannot open file "mix_train_valid/valid/ex89.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex34.train[0m : i/o =    100/      1  [1;36mand =  112606[0m  [1;35mlev =   93[0m [1;35m(93.00)[0m  mem = 1.29 MB
+Cannot open file "mix_train_valid/valid/ex34.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex68.train[0m : i/o =     33/      1  [1;36mand =   42211[0m  [1;35mlev =   50[0m [1;35m(50.00)[0m  mem = 0.48 MB
+Cannot open file "mix_train_valid/valid/ex68.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex78.train[0m : i/o =     16/      1  [1;36mand =   11102[0m  [1;35mlev =   37[0m [1;35m(37.00)[0m  mem = 0.13 MB
+Cannot open file "mix_train_valid/valid/ex78.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex53.train[0m : i/o =     45/      1  [1;36mand =   46741[0m  [1;35mlev =   58[0m [1;35m(58.00)[0m  mem = 0.54 MB
+Cannot open file "mix_train_valid/valid/ex53.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex26.train[0m : i/o =    128/      1  [1;36mand =  143469[0m  [1;35mlev =  109[0m [1;35m(109.00)[0m  mem = 1.64 MB
+Cannot open file "mix_train_valid/valid/ex26.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex29.train[0m : i/o =    256/      1  [1;36mand =  279030[0m  [1;35mlev =  183[0m [1;35m(183.00)[0m  mem = 3.20 MB
+Cannot open file "mix_train_valid/valid/ex29.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex28.train[0m : i/o =    256/      1  [1;36mand =  286844[0m  [1;35mlev =  183[0m [1;35m(183.00)[0m  mem = 3.29 MB
+Cannot open file "mix_train_valid/valid/ex28.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex10.train[0m : i/o =     32/      1  [1;36mand =   22283[0m  [1;35mlev =   47[0m [1;35m(47.00)[0m  mem = 0.26 MB
+Cannot open file "mix_train_valid/valid/ex10.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex81.train[0m : i/o =    196/      1  [1;36mand =   82968[0m  [1;35mlev =  321[0m [1;35m(321.00)[0m  mem = 0.95 MB
+Cannot open file "mix_train_valid/valid/ex81.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex35.train[0m : i/o =    120/      1  [1;36mand =  133401[0m  [1;35mlev =  111[0m [1;35m(111.00)[0m  mem = 1.53 MB
+Cannot open file "mix_train_valid/valid/ex35.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex45.train[0m : i/o =     34/      1  [1;36mand =   33671[0m  [1;35mlev =   50[0m [1;35m(50.00)[0m  mem = 0.39 MB
+Cannot open file "mix_train_valid/valid/ex45.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex94.train[0m : i/o =    768/      1  [1;36mand =  635830[0m  [1;35mlev =  938[0m [1;35m(938.00)[0m  mem = 7.29 MB
+Cannot open file "mix_train_valid/valid/ex94.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex90.train[0m : i/o =    768/      1  [1;36mand =  601985[0m  [1;35mlev =  904[0m [1;35m(904.00)[0m  mem = 6.90 MB
+Cannot open file "mix_train_valid/valid/ex90.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex07.train[0m : i/o =    256/      1  [1;36mand =  284325[0m  [1;35mlev =  180[0m [1;35m(180.00)[0m  mem = 3.26 MB
+Cannot open file "mix_train_valid/valid/ex07.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex56.train[0m : i/o =     83/      1  [1;36mand =   19373[0m  [1;35mlev =   78[0m [1;35m(78.00)[0m  mem = 0.22 MB
+Cannot open file "mix_train_valid/valid/ex56.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex85.train[0m : i/o =    196/      1  [1;36mand =   81078[0m  [1;35mlev =  304[0m [1;35m(304.00)[0m  mem = 0.93 MB
+Cannot open file "mix_train_valid/valid/ex85.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex04.train[0m : i/o =    128/      1  [1;36mand =  145760[0m  [1;35mlev =  115[0m [1;35m(115.00)[0m  mem = 1.67 MB
+Cannot open file "mix_train_valid/valid/ex04.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex63.train[0m : i/o =     38/      1  [1;36mand =   10214[0m  [1;35mlev =   50[0m [1;35m(50.00)[0m  mem = 0.12 MB
+Cannot open file "mix_train_valid/valid/ex63.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex05.train[0m : i/o =    128/      1  [1;36mand =  143870[0m  [1;35mlev =  109[0m [1;35m(109.00)[0m  mem = 1.65 MB
+Cannot open file "mix_train_valid/valid/ex05.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex66.train[0m : i/o =     47/      1  [1;36mand =   75499[0m  [1;35mlev =   60[0m [1;35m(60.00)[0m  mem = 0.87 MB
+Cannot open file "mix_train_valid/valid/ex66.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex93.train[0m : i/o =    768/      1  [1;36mand =  632394[0m  [1;35mlev = 1023[0m [1;35m(1023.00)[0m  mem = 7.25 MB
+Cannot open file "mix_train_valid/valid/ex93.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex80.train[0m : i/o =    196/      1  [1;36mand =   91702[0m  [1;35mlev =  316[0m [1;35m(316.00)[0m  mem = 1.05 MB
+Cannot open file "mix_train_valid/valid/ex80.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex50.train[0m : i/o =     19/      1  [1;36mand =   12122[0m  [1;35mlev =   39[0m [1;35m(39.00)[0m  mem = 0.14 MB
+Cannot open file "mix_train_valid/valid/ex50.valid.pla" for reading.
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex54.train[0m : i/o =     48/      1  [1;36mand =   51486[0m  [1;35mlev =   61[0m [1;35m(61.00)[0m  mem = 0.59 MB
+Cannot open file "mix_train_valid/valid/ex54.valid.pla" for reading.
