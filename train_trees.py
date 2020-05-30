@@ -1,4 +1,3 @@
-import time
 import os
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.tree import _tree
@@ -62,7 +61,7 @@ def train_tree(_max_depth, train_data, test_data):
 
 
 def get_number_of_inputs(_path):
-    with open(f'IWLS2020-benchmarks/{_path}') as file:
+    with open(_path) as file:
         for line in file:
             if '.i' in line:
                 return int(line.split(' ')[1])
@@ -84,16 +83,16 @@ def order_ex_results(string):
     return result
 
 
-def aig_maker(_dir_path):
+def aig_maker(_dir_path):   # dir_path = path to eqn files
     file = open('mltest.txt', 'w+')
     file.truncate(0)
     file.close()
 
     for _path in os.listdir(_dir_path):
-        if '.train' in _path:
+        if '.eqn' in _path:
             new_file = str(f'mix_train_valid/aig/{_path[:4]}.train.aig')
-            script = str(f'read_pla {_dir_path}/{_path}\nstrash\nwrite_aiger {new_file}\n&read {new_file}; &ps;'
-                         f'&mltest mix_train_valid/valid/{_path[:4]}.valid.pla')
+            script = str(f'read_eqn {_dir_path}/{_path}\nstrash\nwrite_aiger {new_file}\n&read {new_file}; &ps;'
+                         f'&mltest mix_train_valid/benchmarks/{_path[:4]}.valid.pla')
 
             script_file = open('script.scr', 'w+')
             script_file.write(script)
@@ -196,6 +195,19 @@ def correct_redundancy(body):
     return '%s' % '\n'.join([f'{key} {value}' for (key, value) in lines_dict.items()])
 
 
+def eqn_maker(expr, n_inputs):
+    header = 'INORDER ='
+
+    for i in range(n_inputs):
+        header += f' x{i}'
+    header += ';\nOUTORDER = z1;\n'
+
+    body = 'z1 = '
+    body += expr.replace('not', '!').replace('and', '*').replace('or', '+')
+
+    return f'{header}{body}'
+
+
 def run(_dir_path, _path, _max_depth):
     base_name = _path.split('.data')[0]
     c50f_data = base_name + '.data'
@@ -215,62 +227,44 @@ def run(_dir_path, _path, _max_depth):
 
     return output_str, total_acc_tr, expr
 
+# para minimizar sop's, olhar:
+# https://pyeda.readthedocs.io/en/latest/2llm.html
 
-start = time.perf_counter()
-
-dir_path = 'tree_files'
+dir_path = 'mix_train_valid/trained_trees_sop'
 tests = [15]
 acc_tree_means = []
 acc_tree_mean_dict = {}
 
-# TrainTrees().aig_maker(dir_path)
-# TrainTrees().mltest_data_maker()
+aig_maker(dir_path)
+mltest_data_maker()
 
-for test in tests:
-    output_string = ''
-    print('base_name acc_tree')
-    total_acc_tree = 0
-
-    print('*' * 20)
-    print(f'_max_depth = {test}')
-    max_depth = test
-
-    results = []
-    count = 0
-    # with concurrent.futures.ProcessPoolExecutor() as executor:
-    #     for path in os.listdir(dir_path):
-    #         if '.train' not in path:
-    #             continue
-    #         # if count == 1:
-    #         #     break
-    #         count += 1
-    #
-    #         results.append(executor.submit(mix_train_valid, dir_path, path))
-    #
-    #     for r in results:
-    #         train_data, valid_data, ex = r.result()
-    #
-    #         train_output = open(f'mix_train_valid/train/{ex}.train.pla', 'w+')
-    #         valid_output = open(f'mix_train_valid/valid/{ex}.valid.pla', 'w+')
-    #         train_output.write(train_data)
-    #         valid_output.write(valid_data)
-    #         train_output.close()
-    #         valid_output.close()
-
-    with concurrent.futures.ProcessPoolExecutor() as executor:
-        for path in os.listdir(dir_path):
-            if '.data' not in path:
-                continue
-            # if count == 1:
-            #     break
-            count += 1
-
-            results.append(executor.submit(run, dir_path, path, 15))
-
-        for r in results:
-            out_str, tot_ac_tr, exp = r.result()
-            exp.replace('not', '!').replace('and', '*').replace('or', '+')
-
-            expr_output = open(f'mix_train_valid/train_sop/{out_str[:4]}.eqn')
-            expr_output.write(exp)
-            expr_output.close()
+# for test in tests:
+#     output_string = ''
+#     print('base_name acc_tree')
+#     total_acc_tree = 0
+#
+#     print('*' * 20)
+#     print(f'_max_depth = {test}')
+#     max_depth = test
+#
+#     results = []
+#     count = 0
+#
+#     with concurrent.futures.ProcessPoolExecutor() as executor:
+#         for path in os.listdir(dir_path):
+#             if '.data' not in path:
+#                 continue
+#             # if count == 1:
+#             #     break
+#             count += 1
+#
+#             results.append(executor.submit(aig_maker, dir_path))
+#
+#         for r in results:
+#             out_str, tot_ac_tr, exp = r.result()
+#             exp = exp.replace('not', '!').replace('and', '*').replace('or', '+')
+#
+#             expr_output = open(f'mix_train_valid/train_trees_sop/{out_str[:4]}.eqn', 'w+')
+#             expr_output.write(eqn_maker(exp, get_number_of_inputs(f'mix_train_valid/benchmarks/'
+#                                                                   f'{out_str[:4]}.train.pla')))
+#             expr_output.close()

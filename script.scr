@@ -1,4 +1,4 @@
-read_pla IWLS2020-benchmarks/ex54.train.pla
+read_eqn mix_train_valid/trained_trees_sop/ex35.eqn
 strash
-write_aiger mix_train_valid/aig/ex54.train.aig
-&read mix_train_valid/aig/ex54.train.aig; &ps;&mltest mix_train_valid/valid/ex54.valid.pla
+write_aiger mix_train_valid/aig/ex35.train.aig
+&read mix_train_valid/aig/ex35.train.aig; &ps;&mltest mix_train_valid/benchmarks/ex35.valid.pla
