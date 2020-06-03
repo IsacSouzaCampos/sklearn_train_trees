@@ -1,0 +1,11 @@
+from pyeda.inter import *
+
+
+inorder = ...
+
+optimized_eqn = ...
+
+file = open('simplified_expr.txt', 'w+')
+file.write(str(optimized_eqn.simplify()))
+file.close()
+

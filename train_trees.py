@@ -1,4 +1,5 @@
 import os
+from pyeda.inter import *
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.tree import _tree
 from copy import deepcopy
@@ -45,6 +46,87 @@ def tree_to_sop(tree, feature_names):
     recurse(0, 1, [])
 
     return ors
+
+
+def optimize_sop(_dir_path, _path):
+    with open(f'{_dir_path}/{_path}') as file:
+        string = file.read()
+        inorder = string.split(';')[0].replace('INORDER = ', '').split(' ')
+        inorder_vars = list(map(exprvar, inorder))
+        values_dict = {}
+        for i in range(len(inorder)):
+            values_dict[inorder[i]] = inorder_vars[i]
+
+        _expr = string.split('z1 = ')[1].replace(' ', '').replace('(', '').replace(')', '')
+
+        or_splitted = _expr.split('+')
+        and_exprs_lst = []
+        for _ in or_splitted:
+            and_logic = _.split('*')
+            and_expr = 'And('
+            for element in and_logic:
+                if '!' in element:
+                    and_expr += f'~vars_dict["{element.replace("!", "")}"], '
+                else:
+                    and_expr += f'vars_dict["{element}"], '
+            and_expr += ')'
+            and_exprs_lst.append(and_expr)
+        final_expr = 'Or('
+        final_expr += ', '.join([element for element in and_exprs_lst])
+        final_expr += ')'
+
+        change_optimize_sop_file(inorder, final_expr)
+        os.system('python3 optimize_sop.py')
+        remake_eqn(f'mix_train_valid/trained_trees_sop/{_path}', 'simplified_expr.txt')
+
+
+def remake_eqn(full_path, simplified_string):
+    _expr = ''
+    _new_expr = ''
+    with open(simplified_string) as file:
+        for line in file.read().splitlines():
+            _expr += line
+    _and_exprs = _expr.replace('Or(And', '')[:-1].split(', And')
+    _new_expr = ' + '.join(element.replace(', ', ' * ') for element in _and_exprs)
+    _new_expr = _new_expr.replace('~', '!').replace('x', '(x').replace(' *', ') *').replace(' +', ') +')
+
+    print(_new_expr)
+    final_eqn = ''
+    with open(full_path) as file:
+        for line in file.read().splitlines():
+            final_eqn += f'z1 = {_new_expr}' if 'z1 =' in line else f'{line}\n'
+    final_eqn = f'{final_eqn.replace(" * )", ")")});'
+
+    file = open(f'mix_train_valid/optimized_sop/{full_path[-8::]}', 'w+')
+    file.write(final_eqn)
+    file.close()
+
+
+def change_optimize_sop_file(inorder, _expr):
+    space = '    '
+    with open('optimize_sop.py') as file:
+        string = file.read()
+        new_string = ''
+
+        for line in string.splitlines():
+            if 'continue' in line:
+                continue
+            elif 'inorder =' in line:
+                new_string += f'inorder = ['
+                new_string += ', '.join(f'"{element}"' for element in inorder)
+                new_string += ']\n\n'
+                new_string += f'inorder_vars = list(map(exprvar, inorder)){space}# continue\n'
+                new_string += f'vars_dict = {"{}"}{space*8}# continue\n'
+                new_string += f'for i in range(len(inorder)):{space*4}# continue\n'
+                new_string += f'{space}vars_dict[inorder[i]] = inorder_vars[i]{space}# continue'
+            elif 'optimized_eqn =' in line:
+                new_string += f'optimized_eqn = {_expr.replace(", )", ")").replace(";", "")}\n'
+            else:
+                new_string += f'{line}\n'
+
+    file = open('optimize_sop.py', 'w+')
+    file.write(new_string)
+    file.close()
 
 
 def train_tree(_max_depth, train_data, test_data):
@@ -195,7 +277,7 @@ def correct_redundancy(body):
     return '%s' % '\n'.join([f'{key} {value}' for (key, value) in lines_dict.items()])
 
 
-def eqn_maker(expr, n_inputs):
+def eqn_maker(_expr, n_inputs):
     header = 'INORDER ='
 
     for i in range(n_inputs):
@@ -203,7 +285,7 @@ def eqn_maker(expr, n_inputs):
     header += ';\nOUTORDER = z1;\n'
 
     body = 'z1 = '
-    body += expr.replace('not', '!').replace('and', '*').replace('or', '+')
+    body += _expr.replace('not', '!').replace('and', '*').replace('or', '+')
 
     return f'{header}{body}'
 
@@ -219,46 +301,42 @@ def run(_dir_path, _path, _max_depth):
     tree, acc_tree = train_tree(_max_depth, _train_data, test_data)
     sop_tree = tree_to_sop(tree, feature_names)
 
-    expr = pythonize_sop(sop_tree)
+    _expr = pythonize_sop(sop_tree)
 
     output_str = f'{base_name} {acc_tree * 100}\n'
-    print(f'{base_name} {acc_tree * 100}')
+    # print(f'{base_name} {acc_tree * 100}')
     total_acc_tr = acc_tree * 100
 
-    return output_str, total_acc_tr, expr
+    return output_str, total_acc_tr, _expr
 
 # para minimizar sop's, olhar:
 # https://pyeda.readthedocs.io/en/latest/2llm.html
 
+
 dir_path = 'mix_train_valid/trained_trees_sop'
-tests = [15]
 acc_tree_means = []
 acc_tree_mean_dict = {}
 
-aig_maker(dir_path)
-mltest_data_maker()
+results = []
+count = 0
 
-# for test in tests:
-#     output_string = ''
-#     print('base_name acc_tree')
-#     total_acc_tree = 0
+for path in os.listdir(dir_path):
+    if '.eqn' not in path:
+        continue
+    # if count == 1:
+    #     break
+    #     count += 1
+    optimize_sop(dir_path, path)
+
+# with concurrent.futures.ProcessPoolExecutor() as executor:
+#     for path in os.listdir(dir_path):
+#         if '.eqn' not in path:
+#             continue
+#         # if count == 1:
+#         #     break
+#         count += 1
 #
-#     print('*' * 20)
-#     print(f'_max_depth = {test}')
-#     max_depth = test
-#
-#     results = []
-#     count = 0
-#
-#     with concurrent.futures.ProcessPoolExecutor() as executor:
-#         for path in os.listdir(dir_path):
-#             if '.data' not in path:
-#                 continue
-#             # if count == 1:
-#             #     break
-#             count += 1
-#
-#             results.append(executor.submit(aig_maker, dir_path))
+#         results.append(executor.submit(optimize_sop, dir_path, path))
 #
 #         for r in results:
 #             out_str, tot_ac_tr, exp = r.result()

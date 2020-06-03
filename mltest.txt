@@ -5,161 +5,21 @@ Finished reading 3200 simulation patterns for 19 inputs. Probability of 1 at the
 Total =   3200.  Errors =      6.  Correct =   3194.  ( 99.81 %)   Naive guess =   2145.  ( 67.03 %)
 ABC command line: "source script.scr".
 
-[1;37mmix_train_valid/aig/ex47.train[0m : i/o =     66/      1  [1;36mand =    4787[0m  [1;35mlev = 1215[0m [1;35m(1215.00)[0m  mem = 0.06 MB
-Finished reading 3200 simulation patterns for 66 inputs. Probability of 1 at the output is  49.50 %.
-Total =   3200.  Errors =   1621.  Correct =   1579.  ( 49.34 %)   Naive guess =   1616.  ( 50.50 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex69.train[0m : i/o =     16/      1  [1;36mand =     300[0m  [1;35mlev =   90[0m [1;35m(90.00)[0m  mem = 0.00 MB
-Finished reading 3200 simulation patterns for 16 inputs. Probability of 1 at the output is  28.03 %.
-Total =   3200.  Errors =     31.  Correct =   3169.  ( 99.03 %)   Naive guess =   2303.  ( 71.97 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex26.train[0m : i/o =    128/      1  [1;36mand =    4002[0m  [1;35mlev = 1010[0m [1;35m(1010.00)[0m  mem = 0.05 MB
-Finished reading 3200 simulation patterns for 128 inputs. Probability of 1 at the output is  50.00 %.
-Total =   3200.  Errors =   1620.  Correct =   1580.  ( 49.38 %)   Naive guess =   1600.  ( 50.00 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex15.train[0m : i/o =     32/      1  [1;36mand =    1127[0m  [1;35mlev =  293[0m [1;35m(293.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 32 inputs. Probability of 1 at the output is  48.09 %.
-Total =   3200.  Errors =    218.  Correct =   2982.  ( 93.19 %)   Naive guess =   1661.  ( 51.91 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex43.train[0m : i/o =     18/      1  [1;36mand =    3753[0m  [1;35mlev =  953[0m [1;35m(953.00)[0m  mem = 0.04 MB
-Finished reading 3200 simulation patterns for 18 inputs. Probability of 1 at the output is  49.78 %.
-Total =   3200.  Errors =    498.  Correct =   2702.  ( 84.44 %)   Naive guess =   1607.  ( 50.22 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex40.train[0m : i/o =     16/      1  [1;36mand =    2306[0m  [1;35mlev =  580[0m [1;35m(580.00)[0m  mem = 0.03 MB
-Finished reading 3200 simulation patterns for 16 inputs. Probability of 1 at the output is  51.06 %.
-Total =   3200.  Errors =    175.  Correct =   3025.  ( 94.53 %)   Naive guess =   1634.  ( 51.06 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex99.train[0m : i/o =    768/      1  [1;36mand =    2320[0m  [1;35mlev =  593[0m [1;35m(593.00)[0m  mem = 0.04 MB
-Finished reading 3200 simulation patterns for 768 inputs. Probability of 1 at the output is  50.47 %.
-Total =   3200.  Errors =   1114.  Correct =   2086.  ( 65.19 %)   Naive guess =   1615.  ( 50.47 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex52.train[0m : i/o =     59/      1  [1;36mand =    3222[0m  [1;35mlev =  813[0m [1;35m(813.00)[0m  mem = 0.04 MB
-Finished reading 3200 simulation patterns for 59 inputs. Probability of 1 at the output is  51.81 %.
-Total =   3200.  Errors =    979.  Correct =   2221.  ( 69.41 %)   Naive guess =   1658.  ( 51.81 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex21.train[0m : i/o =     16/      1  [1;36mand =    1900[0m  [1;35mlev =  482[0m [1;35m(482.00)[0m  mem = 0.02 MB
-Finished reading 3200 simulation patterns for 16 inputs. Probability of 1 at the output is  48.69 %.
-Total =   3200.  Errors =    205.  Correct =   2995.  ( 93.59 %)   Naive guess =   1642.  ( 51.31 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex12.train[0m : i/o =    128/      1  [1;36mand =    1250[0m  [1;35mlev =  324[0m [1;35m(324.00)[0m  mem = 0.02 MB
-Finished reading 3200 simulation patterns for 128 inputs. Probability of 1 at the output is  35.88 %.
-Total =   3200.  Errors =    442.  Correct =   2758.  ( 86.19 %)   Naive guess =   2052.  ( 64.12 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex87.train[0m : i/o =    196/      1  [1;36mand =     889[0m  [1;35mlev =  238[0m [1;35m(238.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 196 inputs. Probability of 1 at the output is  50.50 %.
-Total =   3200.  Errors =    176.  Correct =   3024.  ( 94.50 %)   Naive guess =   1616.  ( 50.50 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex44.train[0m : i/o =     64/      1  [1;36mand =    4812[0m  [1;35mlev = 1212[0m [1;35m(1212.00)[0m  mem = 0.06 MB
-Finished reading 3200 simulation patterns for 64 inputs. Probability of 1 at the output is  50.59 %.
-Total =   3200.  Errors =   1609.  Correct =   1591.  ( 49.72 %)   Naive guess =   1619.  ( 50.59 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex49.train[0m : i/o =    130/      1  [1;36mand =    4043[0m  [1;35mlev = 1023[0m [1;35m(1023.00)[0m  mem = 0.05 MB
-Finished reading 3200 simulation patterns for 130 inputs. Probability of 1 at the output is  49.44 %.
-Total =   3200.  Errors =   1634.  Correct =   1566.  ( 48.94 %)   Naive guess =   1618.  ( 50.56 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex80.train[0m : i/o =    196/      1  [1;36mand =    1299[0m  [1;35mlev =  342[0m [1;35m(342.00)[0m  mem = 0.02 MB
-Finished reading 3200 simulation patterns for 196 inputs. Probability of 1 at the output is  48.75 %.
-Total =   3200.  Errors =    396.  Correct =   2804.  ( 87.62 %)   Naive guess =   1640.  ( 51.25 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex75.train[0m : i/o =     16/      1  [1;36mand =    3798[0m  [1;35mlev =  983[0m [1;35m(983.00)[0m  mem = 0.04 MB
-Finished reading 3200 simulation patterns for 16 inputs. Probability of 1 at the output is  59.56 %.
-Total =   3200.  Errors =    526.  Correct =   2674.  ( 83.56 %)   Naive guess =   1906.  ( 59.56 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex73.train[0m : i/o =     16/      1  [1;36mand =    1920[0m  [1;35mlev =  487[0m [1;35m(487.00)[0m  mem = 0.02 MB
-Finished reading 3200 simulation patterns for 16 inputs. Probability of 1 at the output is  65.97 %.
-Total =   3200.  Errors =    177.  Correct =   3023.  ( 94.47 %)   Naive guess =   2111.  ( 65.97 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex54.train[0m : i/o =     48/      1  [1;36mand =     661[0m  [1;35mlev =  173[0m [1;35m(173.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 48 inputs. Probability of 1 at the output is  49.97 %.
-Total =   3200.  Errors =    198.  Correct =   3002.  ( 93.81 %)   Naive guess =   1601.  ( 50.03 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex55.train[0m : i/o =     42/      1  [1;36mand =     431[0m  [1;35mlev =  127[0m [1;35m(127.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 42 inputs. Probability of 1 at the output is  20.53 %.
-Total =   3200.  Errors =    104.  Correct =   3096.  ( 96.75 %)   Naive guess =   2543.  ( 79.47 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex84.train[0m : i/o =    196/      1  [1;36mand =     753[0m  [1;35mlev =  201[0m [1;35m(201.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 196 inputs. Probability of 1 at the output is  50.28 %.
-Total =   3200.  Errors =    179.  Correct =   3021.  ( 94.41 %)   Naive guess =   1609.  ( 50.28 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex33.train[0m : i/o =     80/      1  [1;36mand =     302[0m  [1;35mlev =   86[0m [1;35m(86.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 80 inputs. Probability of 1 at the output is  49.62 %.
-Total =   3200.  Errors =     81.  Correct =   3119.  ( 97.47 %)   Naive guess =   1612.  ( 50.38 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex83.train[0m : i/o =    196/      1  [1;36mand =     624[0m  [1;35mlev =  180[0m [1;35m(180.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 196 inputs. Probability of 1 at the output is  49.62 %.
-Total =   3200.  Errors =    137.  Correct =   3063.  ( 95.72 %)   Naive guess =   1612.  ( 50.38 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex74.train[0m : i/o =     16/      1  [1;36mand =   10123[0m  [1;35mlev = 2530[0m [1;35m(2530.00)[0m  mem = 0.12 MB
-Finished reading 3200 simulation patterns for 16 inputs. Probability of 1 at the output is  49.75 %.
-Total =   3200.  Errors =   1598.  Correct =   1602.  ( 50.06 %)   Naive guess =   1608.  ( 50.25 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex41.train[0m : i/o =     10/      1  [1;36mand =     275[0m  [1;35mlev =   83[0m [1;35m(83.00)[0m  mem = 0.00 MB
-Finished reading 3200 simulation patterns for 10 inputs. Probability of 1 at the output is  52.09 %.
-Total =   3200.  Errors =      0.  Correct =   3200.  (100.00 %)   Naive guess =   1667.  ( 52.09 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex91.train[0m : i/o =    768/      1  [1;36mand =    2631[0m  [1;35mlev =  680[0m [1;35m(680.00)[0m  mem = 0.04 MB
-Finished reading 3200 simulation patterns for 768 inputs. Probability of 1 at the output is  49.22 %.
-Total =   3200.  Errors =   1218.  Correct =   1982.  ( 61.94 %)   Naive guess =   1625.  ( 50.78 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex71.train[0m : i/o =     23/      1  [1;36mand =     570[0m  [1;35mlev =  138[0m [1;35m(138.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 23 inputs. Probability of 1 at the output is   9.47 %.
-Total =   3200.  Errors =     92.  Correct =   3108.  ( 97.12 %)   Naive guess =   2897.  ( 90.53 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex76.train[0m : i/o =     16/      1  [1;36mand =    3582[0m  [1;35mlev =  776[0m [1;35m(776.00)[0m  mem = 0.04 MB
-Finished reading 3200 simulation patterns for 16 inputs. Probability of 1 at the output is  20.78 %.
-Total =   3200.  Errors =    502.  Correct =   2698.  ( 84.31 %)   Naive guess =   2535.  ( 79.22 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex45.train[0m : i/o =     34/      1  [1;36mand =    6057[0m  [1;35mlev = 1524[0m [1;35m(1524.00)[0m  mem = 0.07 MB
-Finished reading 3200 simulation patterns for 34 inputs. Probability of 1 at the output is  48.78 %.
-Total =   3200.  Errors =   1594.  Correct =   1606.  ( 50.19 %)   Naive guess =   1639.  ( 51.22 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex36.train[0m : i/o =    140/      1  [1;36mand =     269[0m  [1;35mlev =   78[0m [1;35m(78.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 140 inputs. Probability of 1 at the output is  49.34 %.
-Total =   3200.  Errors =     70.  Correct =   3130.  ( 97.81 %)   Naive guess =   1621.  ( 50.66 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex10.train[0m : i/o =     32/      1  [1;36mand =    1554[0m  [1;35mlev =  395[0m [1;35m(395.00)[0m  mem = 0.02 MB
-Finished reading 3200 simulation patterns for 32 inputs. Probability of 1 at the output is  34.06 %.
-Total =   3200.  Errors =    327.  Correct =   2873.  ( 89.78 %)   Naive guess =   2110.  ( 65.94 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex60.train[0m : i/o =     43/      1  [1;36mand =     762[0m  [1;35mlev =  187[0m [1;35m(187.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 43 inputs. Probability of 1 at the output is  32.38 %.
-Total =   3200.  Errors =    169.  Correct =   3031.  ( 94.72 %)   Naive guess =   2164.  ( 67.62 %)
 ABC command line: "source script.scr".
 
 [1;37mmix_train_valid/aig/ex98.train[0m : i/o =    768/      1  [1;36mand =    2558[0m  [1;35mlev =  651[0m [1;35m(651.00)[0m  mem = 0.04 MB
 Finished reading 3200 simulation patterns for 768 inputs. Probability of 1 at the output is  49.97 %.
 Total =   3200.  Errors =   1141.  Correct =   2059.  ( 64.34 %)   Naive guess =   1601.  ( 50.03 %)
+[1;37mmix_train_valid/aig/ex98.train[0m : i/o =    768/      1  [1;36mand =    2558[0m  [1;35mlev =  651[0m [1;35m(651.00)[0m  mem = 0.04 MB
+Finished reading 3200 simulation patterns for 768 inputs. Probability of 1 at the output is  49.97 %.
+Total =   3200.  Errors =   1141.  Correct =   2059.  ( 64.34 %)   Naive guess =   1601.  ( 50.03 %)
 ABC command line: "source script.scr".
 
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex09.train[0m : i/o =    512/      1  [1;36mand =     259[0m  [1;35mlev =   72[0m [1;35m(72.00)[0m  mem = 0.01 MB
+Finished reading 3200 simulation patterns for 512 inputs. Probability of 1 at the output is  49.94 %.
+Total =   3200.  Errors =     66.  Correct =   3134.  ( 97.94 %)   Naive guess =   1602.  ( 50.06 %)
 [1;37mmix_train_valid/aig/ex09.train[0m : i/o =    512/      1  [1;36mand =     259[0m  [1;35mlev =   72[0m [1;35m(72.00)[0m  mem = 0.01 MB
 Finished reading 3200 simulation patterns for 512 inputs. Probability of 1 at the output is  49.94 %.
 Total =   3200.  Errors =     66.  Correct =   3134.  ( 97.94 %)   Naive guess =   1602.  ( 50.06 %)
@@ -170,19 +30,39 @@ Finished reading 3200 simulation patterns for 256 inputs. Probability of 1 at th
 Total =   3200.  Errors =   1470.  Correct =   1730.  ( 54.06 %)   Naive guess =   1604.  ( 50.12 %)
 ABC command line: "source script.scr".
 
-[1;37mmix_train_valid/aig/ex92.train[0m : i/o =    768/      1  [1;36mand =    2408[0m  [1;35mlev =  623[0m [1;35m(623.00)[0m  mem = 0.04 MB
-Finished reading 3200 simulation patterns for 768 inputs. Probability of 1 at the output is  49.28 %.
-Total =   3200.  Errors =   1127.  Correct =   2073.  ( 64.78 %)   Naive guess =   1623.  ( 50.72 %)
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex26.train[0m : i/o =    128/      1  [1;36mand =    4002[0m  [1;35mlev = 1010[0m [1;35m(1010.00)[0m  mem = 0.05 MB
+Finished reading 3200 simulation patterns for 128 inputs. Probability of 1 at the output is  50.00 %.
+Total =   3200.  Errors =   1620.  Correct =   1580.  ( 49.38 %)   Naive guess =   1600.  ( 50.00 %)
+[1;37mmix_train_valid/aig/ex26.train[0m : i/o =    128/      1  [1;36mand =    4002[0m  [1;35mlev = 1010[0m [1;35m(1010.00)[0m  mem = 0.05 MB
+Finished reading 3200 simulation patterns for 128 inputs. Probability of 1 at the output is  50.00 %.
+Total =   3200.  Errors =   1620.  Correct =   1580.  ( 49.38 %)   Naive guess =   1600.  ( 50.00 %)
+ABC command line: "source script.scr".
+
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex15.train[0m : i/o =     32/      1  [1;36mand =    1127[0m  [1;35mlev =  293[0m [1;35m(293.00)[0m  mem = 0.01 MB
+Finished reading 3200 simulation patterns for 32 inputs. Probability of 1 at the output is  48.09 %.
+Total =   3200.  Errors =    218.  Correct =   2982.  ( 93.19 %)   Naive guess =   1661.  ( 51.91 %)
+[1;37mmix_train_valid/aig/ex15.train[0m : i/o =     32/      1  [1;36mand =    1127[0m  [1;35mlev =  293[0m [1;35m(293.00)[0m  mem = 0.01 MB
+Finished reading 3200 simulation patterns for 32 inputs. Probability of 1 at the output is  48.09 %.
+Total =   3200.  Errors =    218.  Correct =   2982.  ( 93.19 %)   Naive guess =   1661.  ( 51.91 %)
+ABC command line: "source script.scr".
+
 ABC command line: "source script.scr".
 
 [1;37mmix_train_valid/aig/ex48.train[0m : i/o =    256/      1  [1;36mand =    3537[0m  [1;35mlev =  896[0m [1;35m(896.00)[0m  mem = 0.05 MB
 Finished reading 3200 simulation patterns for 256 inputs. Probability of 1 at the output is  47.62 %.
 Total =   3200.  Errors =   1617.  Correct =   1583.  ( 49.47 %)   Naive guess =   1676.  ( 52.38 %)
+[1;37mmix_train_valid/aig/ex48.train[0m : i/o =    256/      1  [1;36mand =    3537[0m  [1;35mlev =  896[0m [1;35m(896.00)[0m  mem = 0.05 MB
+Finished reading 3200 simulation patterns for 256 inputs. Probability of 1 at the output is  47.62 %.
+Total =   3200.  Errors =   1617.  Correct =   1583.  ( 49.47 %)   Naive guess =   1676.  ( 52.38 %)
 ABC command line: "source script.scr".
 
-[1;37mmix_train_valid/aig/ex77.train[0m : i/o =     16/      1  [1;36mand =    4593[0m  [1;35mlev = 1286[0m [1;35m(1286.00)[0m  mem = 0.05 MB
-Finished reading 3200 simulation patterns for 16 inputs. Probability of 1 at the output is  79.22 %.
-Total =   3200.  Errors =    513.  Correct =   2687.  ( 83.97 %)   Naive guess =   2535.  ( 79.22 %)
+[1;37mmix_train_valid/aig/ex40.train[0m : i/o =     16/      1  [1;36mand =    2306[0m  [1;35mlev =  580[0m [1;35m(580.00)[0m  mem = 0.03 MB
+Finished reading 3200 simulation patterns for 16 inputs. Probability of 1 at the output is  51.06 %.
+Total =   3200.  Errors =    175.  Correct =   3025.  ( 94.53 %)   Naive guess =   1634.  ( 51.06 %)
 ABC command line: "source script.scr".
 
 [1;37mmix_train_valid/aig/ex62.train[0m : i/o =     52/      1  [1;36mand =     674[0m  [1;35mlev =  187[0m [1;35m(187.00)[0m  mem = 0.01 MB
@@ -190,9 +70,19 @@ Finished reading 3200 simulation patterns for 52 inputs. Probability of 1 at the
 Total =   3200.  Errors =    137.  Correct =   3063.  ( 95.72 %)   Naive guess =   2654.  ( 82.94 %)
 ABC command line: "source script.scr".
 
-[1;37mmix_train_valid/aig/ex20.train[0m : i/o =     16/      1  [1;36mand =    8715[0m  [1;35mlev = 2184[0m [1;35m(2184.00)[0m  mem = 0.10 MB
-Finished reading 3200 simulation patterns for 16 inputs. Probability of 1 at the output is  50.56 %.
-Total =   3200.  Errors =   1248.  Correct =   1952.  ( 61.00 %)   Naive guess =   1618.  ( 50.56 %)
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex99.train[0m : i/o =    768/      1  [1;36mand =    2320[0m  [1;35mlev =  593[0m [1;35m(593.00)[0m  mem = 0.04 MB
+Finished reading 3200 simulation patterns for 768 inputs. Probability of 1 at the output is  50.47 %.
+Total =   3200.  Errors =   1114.  Correct =   2086.  ( 65.19 %)   Naive guess =   1615.  ( 50.47 %)
+[1;37mmix_train_valid/aig/ex99.train[0m : i/o =    768/      1  [1;36mand =    2320[0m  [1;35mlev =  593[0m [1;35m(593.00)[0m  mem = 0.04 MB
+Finished reading 3200 simulation patterns for 768 inputs. Probability of 1 at the output is  50.47 %.
+Total =   3200.  Errors =   1114.  Correct =   2086.  ( 65.19 %)   Naive guess =   1615.  ( 50.47 %)
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex52.train[0m : i/o =     59/      1  [1;36mand =    3222[0m  [1;35mlev =  813[0m [1;35m(813.00)[0m  mem = 0.04 MB
+Finished reading 3200 simulation patterns for 59 inputs. Probability of 1 at the output is  51.81 %.
+Total =   3200.  Errors =    979.  Correct =   2221.  ( 69.41 %)   Naive guess =   1658.  ( 51.81 %)
 ABC command line: "source script.scr".
 
 [1;37mmix_train_valid/aig/ex50.train[0m : i/o =     19/      1  [1;36mand =     854[0m  [1;35mlev =  230[0m [1;35m(230.00)[0m  mem = 0.01 MB
@@ -200,11 +90,26 @@ Finished reading 3200 simulation patterns for 19 inputs. Probability of 1 at the
 Total =   3200.  Errors =    112.  Correct =   3088.  ( 96.50 %)   Naive guess =   1776.  ( 55.50 %)
 ABC command line: "source script.scr".
 
+[1;37mmix_train_valid/aig/ex21.train[0m : i/o =     16/      1  [1;36mand =    1900[0m  [1;35mlev =  482[0m [1;35m(482.00)[0m  mem = 0.02 MB
+Finished reading 3200 simulation patterns for 16 inputs. Probability of 1 at the output is  48.69 %.
+Total =   3200.  Errors =    205.  Correct =   2995.  ( 93.59 %)   Naive guess =   1642.  ( 51.31 %)
+ABC command line: "source script.scr".
+
 [1;37mmix_train_valid/aig/ex64.train[0m : i/o =     47/      1  [1;36mand =      15[0m  [1;35mlev =    9[0m [1;35m(9.00)[0m  mem = 0.00 MB
 Finished reading 3200 simulation patterns for 47 inputs. Probability of 1 at the output is  23.16 %.
 Total =   3200.  Errors =      0.  Correct =   3200.  (100.00 %)   Naive guess =   2459.  ( 76.84 %)
 ABC command line: "source script.scr".
 
+[1;37mmix_train_valid/aig/ex12.train[0m : i/o =    128/      1  [1;36mand =    1250[0m  [1;35mlev =  324[0m [1;35m(324.00)[0m  mem = 0.02 MB
+Finished reading 3200 simulation patterns for 128 inputs. Probability of 1 at the output is  35.88 %.
+Total =   3200.  Errors =    442.  Correct =   2758.  ( 86.19 %)   Naive guess =   2052.  ( 64.12 %)
+ABC command line: "source script.scr".
+
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex79.train[0m : i/o =     16/      1  [1;36mand =    4569[0m  [1;35mlev = 1277[0m [1;35m(1277.00)[0m  mem = 0.05 MB
+Finished reading 3200 simulation patterns for 16 inputs. Probability of 1 at the output is  79.22 %.
+Total =   3200.  Errors =    516.  Correct =   2684.  ( 83.88 %)   Naive guess =   2535.  ( 79.22 %)
 [1;37mmix_train_valid/aig/ex79.train[0m : i/o =     16/      1  [1;36mand =    4569[0m  [1;35mlev = 1277[0m [1;35m(1277.00)[0m  mem = 0.05 MB
 Finished reading 3200 simulation patterns for 16 inputs. Probability of 1 at the output is  79.22 %.
 Total =   3200.  Errors =    516.  Correct =   2684.  ( 83.88 %)   Naive guess =   2535.  ( 79.22 %)
@@ -215,9 +120,19 @@ Finished reading 3200 simulation patterns for 32 inputs. Probability of 1 at the
 Total =   3200.  Errors =   1627.  Correct =   1573.  ( 49.16 %)   Naive guess =   1623.  ( 50.72 %)
 ABC command line: "source script.scr".
 
+[1;37mmix_train_valid/aig/ex44.train[0m : i/o =     64/      1  [1;36mand =    4812[0m  [1;35mlev = 1212[0m [1;35m(1212.00)[0m  mem = 0.06 MB
+Finished reading 3200 simulation patterns for 64 inputs. Probability of 1 at the output is  50.59 %.
+Total =   3200.  Errors =   1609.  Correct =   1591.  ( 49.72 %)   Naive guess =   1619.  ( 50.59 %)
+ABC command line: "source script.scr".
+
 [1;37mmix_train_valid/aig/ex23.train[0m : i/o =     32/      1  [1;36mand =    3700[0m  [1;35mlev =  938[0m [1;35m(938.00)[0m  mem = 0.04 MB
 Finished reading 3200 simulation patterns for 32 inputs. Probability of 1 at the output is  48.47 %.
 Total =   3200.  Errors =    841.  Correct =   2359.  ( 73.72 %)   Naive guess =   1649.  ( 51.53 %)
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex49.train[0m : i/o =    130/      1  [1;36mand =    4043[0m  [1;35mlev = 1023[0m [1;35m(1023.00)[0m  mem = 0.05 MB
+Finished reading 3200 simulation patterns for 130 inputs. Probability of 1 at the output is  49.44 %.
+Total =   3200.  Errors =   1634.  Correct =   1566.  ( 48.94 %)   Naive guess =   1618.  ( 50.56 %)
 ABC command line: "source script.scr".
 
 [1;37mmix_train_valid/aig/ex25.train[0m : i/o =     64/      1  [1;36mand =    4415[0m  [1;35mlev = 1121[0m [1;35m(1121.00)[0m  mem = 0.05 MB
@@ -225,9 +140,21 @@ Finished reading 3200 simulation patterns for 64 inputs. Probability of 1 at the
 Total =   3200.  Errors =   1375.  Correct =   1825.  ( 57.03 %)   Naive guess =   1648.  ( 51.50 %)
 ABC command line: "source script.scr".
 
+[1;37mmix_train_valid/aig/ex80.train[0m : i/o =    196/      1  [1;36mand =    1299[0m  [1;35mlev =  342[0m [1;35m(342.00)[0m  mem = 0.02 MB
+Finished reading 3200 simulation patterns for 196 inputs. Probability of 1 at the output is  48.75 %.
+Total =   3200.  Errors =    396.  Correct =   2804.  ( 87.62 %)   Naive guess =   1640.  ( 51.25 %)
+ABC command line: "source script.scr".
+
 [1;37mmix_train_valid/aig/ex37.train[0m : i/o =    160/      1  [1;36mand =     273[0m  [1;35mlev =   79[0m [1;35m(79.00)[0m  mem = 0.01 MB
 Finished reading 3200 simulation patterns for 160 inputs. Probability of 1 at the output is  50.75 %.
 Total =   3200.  Errors =     56.  Correct =   3144.  ( 98.25 %)   Naive guess =   1624.  ( 50.75 %)
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex75.train[0m : i/o =     16/      1  [1;36mand =    3798[0m  [1;35mlev =  983[0m [1;35m(983.00)[0m  mem = 0.04 MB
+Finished reading 3200 simulation patterns for 16 inputs. Probability of 1 at the output is  59.56 %.
+Total =   3200.  Errors =    526.  Correct =   2674.  ( 83.56 %)   Naive guess =   1906.  ( 59.56 %)
+ABC command line: "source script.scr".
+
 ABC command line: "source script.scr".
 
 [1;37mmix_train_valid/aig/ex94.train[0m : i/o =    768/      1  [1;36mand =    2612[0m  [1;35mlev =  662[0m [1;35m(662.00)[0m  mem = 0.04 MB
@@ -235,19 +162,47 @@ Finished reading 3200 simulation patterns for 768 inputs. Probability of 1 at th
 Total =   3200.  Errors =   1386.  Correct =   1814.  ( 56.69 %)   Naive guess =   1659.  ( 51.84 %)
 ABC command line: "source script.scr".
 
+[1;37mmix_train_valid/aig/ex73.train[0m : i/o =     16/      1  [1;36mand =    1920[0m  [1;35mlev =  487[0m [1;35m(487.00)[0m  mem = 0.02 MB
+Finished reading 3200 simulation patterns for 16 inputs. Probability of 1 at the output is  65.97 %.
+Total =   3200.  Errors =    177.  Correct =   3023.  ( 94.47 %)   Naive guess =   2111.  ( 65.97 %)
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex54.train[0m : i/o =     48/      1  [1;36mand =     661[0m  [1;35mlev =  173[0m [1;35m(173.00)[0m  mem = 0.01 MB
+Finished reading 3200 simulation patterns for 48 inputs. Probability of 1 at the output is  49.97 %.
+Total =   3200.  Errors =    198.  Correct =   3002.  ( 93.81 %)   Naive guess =   1601.  ( 50.03 %)
+[1;37mmix_train_valid/aig/ex94.train[0m : i/o =    768/      1  [1;36mand =    2612[0m  [1;35mlev =  662[0m [1;35m(662.00)[0m  mem = 0.04 MB
+Finished reading 3200 simulation patterns for 768 inputs. Probability of 1 at the output is  51.84 %.
+Total =   3200.  Errors =   1386.  Correct =   1814.  ( 56.69 %)   Naive guess =   1659.  ( 51.84 %)
+ABC command line: "source script.scr".
+
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex53.train[0m : i/o =     45/      1  [1;36mand =    1985[0m  [1;35mlev =  499[0m [1;35m(499.00)[0m  mem = 0.02 MB
+Finished reading 3200 simulation patterns for 45 inputs. Probability of 1 at the output is  47.53 %.
+Total =   3200.  Errors =    526.  Correct =   2674.  ( 83.56 %)   Naive guess =   1679.  ( 52.47 %)
 [1;37mmix_train_valid/aig/ex53.train[0m : i/o =     45/      1  [1;36mand =    1985[0m  [1;35mlev =  499[0m [1;35m(499.00)[0m  mem = 0.02 MB
 Finished reading 3200 simulation patterns for 45 inputs. Probability of 1 at the output is  47.53 %.
 Total =   3200.  Errors =    526.  Correct =   2674.  ( 83.56 %)   Naive guess =   1679.  ( 52.47 %)
 ABC command line: "source script.scr".
 
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex86.train[0m : i/o =    196/      1  [1;36mand =     649[0m  [1;35mlev =  181[0m [1;35m(181.00)[0m  mem = 0.01 MB
+Finished reading 3200 simulation patterns for 196 inputs. Probability of 1 at the output is  47.19 %.
+Total =   3200.  Errors =    156.  Correct =   3044.  ( 95.12 %)   Naive guess =   1690.  ( 52.81 %)
 [1;37mmix_train_valid/aig/ex86.train[0m : i/o =    196/      1  [1;36mand =     649[0m  [1;35mlev =  181[0m [1;35m(181.00)[0m  mem = 0.01 MB
 Finished reading 3200 simulation patterns for 196 inputs. Probability of 1 at the output is  47.19 %.
 Total =   3200.  Errors =    156.  Correct =   3044.  ( 95.12 %)   Naive guess =   1690.  ( 52.81 %)
 ABC command line: "source script.scr".
 
-[1;37mmix_train_valid/aig/ex06.train[0m : i/o =    256/      1  [1;36mand =    3506[0m  [1;35mlev =  890[0m [1;35m(890.00)[0m  mem = 0.05 MB
-Finished reading 3200 simulation patterns for 256 inputs. Probability of 1 at the output is  49.59 %.
-Total =   3200.  Errors =   1569.  Correct =   1631.  ( 50.97 %)   Naive guess =   1613.  ( 50.41 %)
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex33.train[0m : i/o =     80/      1  [1;36mand =     302[0m  [1;35mlev =   86[0m [1;35m(86.00)[0m  mem = 0.01 MB
+Finished reading 3200 simulation patterns for 80 inputs. Probability of 1 at the output is  49.62 %.
+Total =   3200.  Errors =     81.  Correct =   3119.  ( 97.47 %)   Naive guess =   1612.  ( 50.38 %)
+[1;37mmix_train_valid/aig/ex33.train[0m : i/o =     80/      1  [1;36mand =     302[0m  [1;35mlev =   86[0m [1;35m(86.00)[0m  mem = 0.01 MB
+Finished reading 3200 simulation patterns for 80 inputs. Probability of 1 at the output is  49.62 %.
+Total =   3200.  Errors =     81.  Correct =   3119.  ( 97.47 %)   Naive guess =   1612.  ( 50.38 %)
 ABC command line: "source script.scr".
 
 [1;37mmix_train_valid/aig/ex03.train[0m : i/o =     64/      1  [1;36mand =     317[0m  [1;35mlev =   90[0m [1;35m(90.00)[0m  mem = 0.01 MB
@@ -260,11 +215,26 @@ Finished reading 3200 simulation patterns for 44 inputs. Probability of 1 at the
 Total =   3200.  Errors =    927.  Correct =   2273.  ( 71.03 %)   Naive guess =   1658.  ( 51.81 %)
 ABC command line: "source script.scr".
 
-[1;37mmix_train_valid/aig/ex04.train[0m : i/o =    128/      1  [1;36mand =    4047[0m  [1;35mlev = 1023[0m [1;35m(1023.00)[0m  mem = 0.05 MB
-Finished reading 3200 simulation patterns for 128 inputs. Probability of 1 at the output is  49.91 %.
-Total =   3200.  Errors =   1550.  Correct =   1650.  ( 51.56 %)   Naive guess =   1603.  ( 50.09 %)
 ABC command line: "source script.scr".
 
+[1;37mmix_train_valid/aig/ex74.train[0m : i/o =     16/      1  [1;36mand =   10123[0m  [1;35mlev = 2530[0m [1;35m(2530.00)[0m  mem = 0.12 MB
+Finished reading 3200 simulation patterns for 16 inputs. Probability of 1 at the output is  49.75 %.
+Total =   3200.  Errors =   1598.  Correct =   1602.  ( 50.06 %)   Naive guess =   1608.  ( 50.25 %)
+[1;37mmix_train_valid/aig/ex74.train[0m : i/o =     16/      1  [1;36mand =   10123[0m  [1;35mlev = 2530[0m [1;35m(2530.00)[0m  mem = 0.12 MB
+Finished reading 3200 simulation patterns for 16 inputs. Probability of 1 at the output is  49.75 %.
+Total =   3200.  Errors =   1598.  Correct =   1602.  ( 50.06 %)   Naive guess =   1608.  ( 50.25 %)
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex41.train[0m : i/o =     10/      1  [1;36mand =     275[0m  [1;35mlev =   83[0m [1;35m(83.00)[0m  mem = 0.00 MB
+Finished reading 3200 simulation patterns for 10 inputs. Probability of 1 at the output is  52.09 %.
+Total =   3200.  Errors =      0.  Correct =   3200.  (100.00 %)   Naive guess =   1667.  ( 52.09 %)
+ABC command line: "source script.scr".
+
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex97.train[0m : i/o =    768/      1  [1;36mand =    2381[0m  [1;35mlev =  613[0m [1;35m(613.00)[0m  mem = 0.04 MB
+Finished reading 3200 simulation patterns for 768 inputs. Probability of 1 at the output is  49.88 %.
+Total =   3200.  Errors =   1181.  Correct =   2019.  ( 63.09 %)   Naive guess =   1604.  ( 50.12 %)
 [1;37mmix_train_valid/aig/ex97.train[0m : i/o =    768/      1  [1;36mand =    2381[0m  [1;35mlev =  613[0m [1;35m(613.00)[0m  mem = 0.04 MB
 Finished reading 3200 simulation patterns for 768 inputs. Probability of 1 at the output is  49.88 %.
 Total =   3200.  Errors =   1181.  Correct =   2019.  ( 63.09 %)   Naive guess =   1604.  ( 50.12 %)
@@ -275,9 +245,21 @@ Finished reading 3200 simulation patterns for 40 inputs. Probability of 1 at the
 Total =   3200.  Errors =     57.  Correct =   3143.  ( 98.22 %)   Naive guess =   1610.  ( 50.31 %)
 ABC command line: "source script.scr".
 
+[1;37mmix_train_valid/aig/ex71.train[0m : i/o =     23/      1  [1;36mand =     570[0m  [1;35mlev =  138[0m [1;35m(138.00)[0m  mem = 0.01 MB
+Finished reading 3200 simulation patterns for 23 inputs. Probability of 1 at the output is   9.47 %.
+Total =   3200.  Errors =     92.  Correct =   3108.  ( 97.12 %)   Naive guess =   2897.  ( 90.53 %)
+ABC command line: "source script.scr".
+
 [1;37mmix_train_valid/aig/ex70.train[0m : i/o =     23/      1  [1;36mand =     517[0m  [1;35mlev =  167[0m [1;35m(167.00)[0m  mem = 0.01 MB
 Finished reading 3200 simulation patterns for 23 inputs. Probability of 1 at the output is  93.00 %.
 Total =   3200.  Errors =     64.  Correct =   3136.  ( 98.00 %)   Naive guess =   2976.  ( 93.00 %)
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex76.train[0m : i/o =     16/      1  [1;36mand =    3582[0m  [1;35mlev =  776[0m [1;35m(776.00)[0m  mem = 0.04 MB
+Finished reading 3200 simulation patterns for 16 inputs. Probability of 1 at the output is  20.78 %.
+Total =   3200.  Errors =    502.  Correct =   2698.  ( 84.31 %)   Naive guess =   2535.  ( 79.22 %)
+ABC command line: "source script.scr".
+
 ABC command line: "source script.scr".
 
 [1;37mmix_train_valid/aig/ex93.train[0m : i/o =    768/      1  [1;36mand =    2183[0m  [1;35mlev =  558[0m [1;35m(558.00)[0m  mem = 0.04 MB
@@ -285,14 +267,27 @@ Finished reading 3200 simulation patterns for 768 inputs. Probability of 1 at th
 Total =   3200.  Errors =    950.  Correct =   2250.  ( 70.31 %)   Naive guess =   1653.  ( 51.66 %)
 ABC command line: "source script.scr".
 
-[1;37mmix_train_valid/aig/ex08.train[0m : i/o =    512/      1  [1;36mand =    3093[0m  [1;35mlev =  782[0m [1;35m(782.00)[0m  mem = 0.04 MB
-Finished reading 3200 simulation patterns for 512 inputs. Probability of 1 at the output is  51.16 %.
-Total =   3200.  Errors =   1614.  Correct =   1586.  ( 49.56 %)   Naive guess =   1637.  ( 51.16 %)
+[1;37mmix_train_valid/aig/ex93.train[0m : i/o =    768/      1  [1;36mand =    2183[0m  [1;35mlev =  558[0m [1;35m(558.00)[0m  mem = 0.04 MB
+Finished reading 3200 simulation patterns for 768 inputs. Probability of 1 at the output is  51.66 %.
+Total =   3200.  Errors =    950.  Correct =   2250.  ( 70.31 %)   Naive guess =   1653.  ( 51.66 %)
+[1;37mmix_train_valid/aig/ex45.train[0m : i/o =     34/      1  [1;36mand =    6057[0m  [1;35mlev = 1524[0m [1;35m(1524.00)[0m  mem = 0.07 MB
+Finished reading 3200 simulation patterns for 34 inputs. Probability of 1 at the output is  48.78 %.
+Total =   3200.  Errors =   1594.  Correct =   1606.  ( 50.19 %)   Naive guess =   1639.  ( 51.22 %)
 ABC command line: "source script.scr".
 
-[1;37mmix_train_valid/aig/ex96.train[0m : i/o =    768/      1  [1;36mand =    2530[0m  [1;35mlev =  639[0m [1;35m(639.00)[0m  mem = 0.04 MB
-Finished reading 3200 simulation patterns for 768 inputs. Probability of 1 at the output is  51.28 %.
-Total =   3200.  Errors =   1185.  Correct =   2015.  ( 62.97 %)   Naive guess =   1641.  ( 51.28 %)
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex36.train[0m : i/o =    140/      1  [1;36mand =     269[0m  [1;35mlev =   78[0m [1;35m(78.00)[0m  mem = 0.01 MB
+Finished reading 3200 simulation patterns for 140 inputs. Probability of 1 at the output is  49.34 %.
+Total =   3200.  Errors =     70.  Correct =   3130.  ( 97.81 %)   Naive guess =   1621.  ( 50.66 %)
+[1;37mmix_train_valid/aig/ex36.train[0m : i/o =    140/      1  [1;36mand =     269[0m  [1;35mlev =   78[0m [1;35m(78.00)[0m  mem = 0.01 MB
+Finished reading 3200 simulation patterns for 140 inputs. Probability of 1 at the output is  49.34 %.
+Total =   3200.  Errors =     70.  Correct =   3130.  ( 97.81 %)   Naive guess =   1621.  ( 50.66 %)
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex10.train[0m : i/o =     32/      1  [1;36mand =    1554[0m  [1;35mlev =  395[0m [1;35m(395.00)[0m  mem = 0.02 MB
+Finished reading 3200 simulation patterns for 32 inputs. Probability of 1 at the output is  34.06 %.
+Total =   3200.  Errors =    327.  Correct =   2873.  ( 89.78 %)   Naive guess =   2110.  ( 65.94 %)
 ABC command line: "source script.scr".
 
 [1;37mmix_train_valid/aig/ex61.train[0m : i/o =     37/      1  [1;36mand =     118[0m  [1;35mlev =   41[0m [1;35m(41.00)[0m  mem = 0.00 MB
@@ -300,19 +295,44 @@ Finished reading 3200 simulation patterns for 37 inputs. Probability of 1 at the
 Total =   3200.  Errors =     17.  Correct =   3183.  ( 99.47 %)   Naive guess =   2371.  ( 74.09 %)
 ABC command line: "source script.scr".
 
+[1;37mmix_train_valid/aig/ex60.train[0m : i/o =     43/      1  [1;36mand =     762[0m  [1;35mlev =  187[0m [1;35m(187.00)[0m  mem = 0.01 MB
+Finished reading 3200 simulation patterns for 43 inputs. Probability of 1 at the output is  32.38 %.
+Total =   3200.  Errors =    169.  Correct =   3031.  ( 94.72 %)   Naive guess =   2164.  ( 67.62 %)
+ABC command line: "source script.scr".
+
 [1;37mmix_train_valid/aig/ex13.train[0m : i/o =    256/      1  [1;36mand =    1154[0m  [1;35mlev =  299[0m [1;35m(299.00)[0m  mem = 0.02 MB
 Finished reading 3200 simulation patterns for 256 inputs. Probability of 1 at the output is  35.22 %.
 Total =   3200.  Errors =    427.  Correct =   2773.  ( 86.66 %)   Naive guess =   2073.  ( 64.78 %)
 ABC command line: "source script.scr".
 
-[1;37mmix_train_valid/aig/ex95.train[0m : i/o =    768/      1  [1;36mand =    1906[0m  [1;35mlev =  495[0m [1;35m(495.00)[0m  mem = 0.03 MB
-Finished reading 3200 simulation patterns for 768 inputs. Probability of 1 at the output is  49.59 %.
-Total =   3200.  Errors =    816.  Correct =   2384.  ( 74.50 %)   Naive guess =   1613.  ( 50.41 %)
 ABC command line: "source script.scr".
 
-[1;37mmix_train_valid/aig/ex81.train[0m : i/o =    196/      1  [1;36mand =    1092[0m  [1;35mlev =  281[0m [1;35m(281.00)[0m  mem = 0.02 MB
-Finished reading 3200 simulation patterns for 196 inputs. Probability of 1 at the output is  51.53 %.
-Total =   3200.  Errors =    346.  Correct =   2854.  ( 89.19 %)   Naive guess =   1649.  ( 51.53 %)
+[1;37mmix_train_valid/aig/ex98.train[0m : i/o =    768/      1  [1;36mand =    2558[0m  [1;35mlev =  651[0m [1;35m(651.00)[0m  mem = 0.04 MB
+Finished reading 3200 simulation patterns for 768 inputs. Probability of 1 at the output is  49.97 %.
+Total =   3200.  Errors =   1141.  Correct =   2059.  ( 64.34 %)   Naive guess =   1601.  ( 50.03 %)
+[1;37mmix_train_valid/aig/ex98.train[0m : i/o =    768/      1  [1;36mand =    2558[0m  [1;35mlev =  651[0m [1;35m(651.00)[0m  mem = 0.04 MB
+Finished reading 3200 simulation patterns for 768 inputs. Probability of 1 at the output is  49.97 %.
+Total =   3200.  Errors =   1141.  Correct =   2059.  ( 64.34 %)   Naive guess =   1601.  ( 50.03 %)
+ABC command line: "source script.scr".
+
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex09.train[0m : i/o =    512/      1  [1;36mand =     259[0m  [1;35mlev =   72[0m [1;35m(72.00)[0m  mem = 0.01 MB
+Finished reading 3200 simulation patterns for 512 inputs. Probability of 1 at the output is  49.94 %.
+Total =   3200.  Errors =     66.  Correct =   3134.  ( 97.94 %)   Naive guess =   1602.  ( 50.06 %)
+[1;37mmix_train_valid/aig/ex09.train[0m : i/o =    512/      1  [1;36mand =     259[0m  [1;35mlev =   72[0m [1;35m(72.00)[0m  mem = 0.01 MB
+Finished reading 3200 simulation patterns for 512 inputs. Probability of 1 at the output is  49.94 %.
+Total =   3200.  Errors =     66.  Correct =   3134.  ( 97.94 %)   Naive guess =   1602.  ( 50.06 %)
+ABC command line: "source script.scr".
+
+ABC command line: "source script.scr".
+
+[1;37mmix_train_valid/aig/ex29.train[0m : i/o =    256/      1  [1;36mand =    3308[0m  [1;35mlev =  835[0m [1;35m(835.00)[0m  mem = 0.04 MB
+Finished reading 3200 simulation patterns for 256 inputs. Probability of 1 at the output is  49.88 %.
+Total =   3200.  Errors =   1470.  Correct =   1730.  ( 54.06 %)   Naive guess =   1604.  ( 50.12 %)
+[1;37mmix_train_valid/aig/ex29.train[0m : i/o =    256/      1  [1;36mand =    3308[0m  [1;35mlev =  835[0m [1;35m(835.00)[0m  mem = 0.04 MB
+Finished reading 3200 simulation patterns for 256 inputs. Probability of 1 at the output is  49.88 %.
+Total =   3200.  Errors =   1470.  Correct =   1730.  ( 54.06 %)   Naive guess =   1604.  ( 50.12 %)
 ABC command line: "source script.scr".
 
 [1;37mmix_train_valid/aig/ex11.train[0m : i/o =     64/      1  [1;36mand =    1410[0m  [1;35mlev =  360[0m [1;35m(360.00)[0m  mem = 0.02 MB
@@ -325,176 +345,16 @@ Finished reading 3200 simulation patterns for 394 inputs. Probability of 1 at th
 Total =   3200.  Errors =    190.  Correct =   3010.  ( 94.06 %)   Naive guess =   1642.  ( 51.31 %)
 ABC command line: "source script.scr".
 
+[1;37mmix_train_valid/aig/ex48.train[0m : i/o =    256/      1  [1;36mand =    3537[0m  [1;35mlev =  896[0m [1;35m(896.00)[0m  mem = 0.05 MB
+Finished reading 3200 simulation patterns for 256 inputs. Probability of 1 at the output is  47.62 %.
+Total =   3200.  Errors =   1617.  Correct =   1583.  ( 49.47 %)   Naive guess =   1676.  ( 52.38 %)
+ABC command line: "source script.scr".
+
 [1;37mmix_train_valid/aig/ex02.train[0m : i/o =     64/      1  [1;36mand =    4801[0m  [1;35mlev = 1205[0m [1;35m(1205.00)[0m  mem = 0.06 MB
 Finished reading 3200 simulation patterns for 64 inputs. Probability of 1 at the output is  48.81 %.
 Total =   3200.  Errors =   1586.  Correct =   1614.  ( 50.44 %)   Naive guess =   1638.  ( 51.19 %)
 ABC command line: "source script.scr".
 
-[1;37mmix_train_valid/aig/ex56.train[0m : i/o =     83/      1  [1;36mand =     375[0m  [1;35mlev =  107[0m [1;35m(107.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 83 inputs. Probability of 1 at the output is   8.53 %.
-Total =   3200.  Errors =     99.  Correct =   3101.  ( 96.91 %)   Naive guess =   2927.  ( 91.47 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex05.train[0m : i/o =    128/      1  [1;36mand =     291[0m  [1;35mlev =   81[0m [1;35m(81.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 128 inputs. Probability of 1 at the output is  50.78 %.
-Total =   3200.  Errors =     70.  Correct =   3130.  ( 97.81 %)   Naive guess =   1625.  ( 50.78 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex18.train[0m : i/o =    256/      1  [1;36mand =     810[0m  [1;35mlev =  216[0m [1;35m(216.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 256 inputs. Probability of 1 at the output is  51.34 %.
-Total =   3200.  Errors =    272.  Correct =   2928.  ( 91.50 %)   Naive guess =   1643.  ( 51.34 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex63.train[0m : i/o =     38/      1  [1;36mand =     161[0m  [1;35mlev =   43[0m [1;35m(43.00)[0m  mem = 0.00 MB
-Finished reading 3200 simulation patterns for 38 inputs. Probability of 1 at the output is  10.72 %.
-Total =   3200.  Errors =     16.  Correct =   3184.  ( 99.50 %)   Naive guess =   2857.  ( 89.28 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex57.train[0m : i/o =     24/      1  [1;36mand =     255[0m  [1;35mlev =   68[0m [1;35m(68.00)[0m  mem = 0.00 MB
-Finished reading 3200 simulation patterns for 24 inputs. Probability of 1 at the output is  15.91 %.
-Total =   3200.  Errors =     32.  Correct =   3168.  ( 99.00 %)   Naive guess =   2691.  ( 84.09 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex66.train[0m : i/o =     47/      1  [1;36mand =     951[0m  [1;35mlev =  259[0m [1;35m(259.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 47 inputs. Probability of 1 at the output is  78.00 %.
-Total =   3200.  Errors =    202.  Correct =   2998.  ( 93.69 %)   Naive guess =   2496.  ( 78.00 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex58.train[0m : i/o =     80/      1  [1;36mand =     434[0m  [1;35mlev =  121[0m [1;35m(121.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 80 inputs. Probability of 1 at the output is  24.31 %.
-Total =   3200.  Errors =    111.  Correct =   3089.  ( 96.53 %)   Naive guess =   2422.  ( 75.69 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex68.train[0m : i/o =     33/      1  [1;36mand =     399[0m  [1;35mlev =  113[0m [1;35m(113.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 33 inputs. Probability of 1 at the output is  67.12 %.
-Total =   3200.  Errors =     97.  Correct =   3103.  ( 96.97 %)   Naive guess =   2148.  ( 67.12 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex39.train[0m : i/o =    200/      1  [1;36mand =     273[0m  [1;35mlev =   80[0m [1;35m(80.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 200 inputs. Probability of 1 at the output is  51.09 %.
-Total =   3200.  Errors =     69.  Correct =   3131.  ( 97.84 %)   Naive guess =   1635.  ( 51.09 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex67.train[0m : i/o =     46/      1  [1;36mand =     985[0m  [1;35mlev =  275[0m [1;35m(275.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 46 inputs. Probability of 1 at the output is  76.53 %.
-Total =   3200.  Errors =    174.  Correct =   3026.  ( 94.56 %)   Naive guess =   2449.  ( 76.53 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex46.train[0m : i/o =    128/      1  [1;36mand =    4074[0m  [1;35mlev = 1028[0m [1;35m(1028.00)[0m  mem = 0.05 MB
-Finished reading 3200 simulation patterns for 128 inputs. Probability of 1 at the output is  50.59 %.
-Total =   3200.  Errors =   1592.  Correct =   1608.  ( 50.25 %)   Naive guess =   1619.  ( 50.59 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex30.train[0m : i/o =     20/      1  [1;36mand =     327[0m  [1;35mlev =   92[0m [1;35m(92.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 20 inputs. Probability of 1 at the output is  50.53 %.
-Total =   3200.  Errors =     30.  Correct =   3170.  ( 99.06 %)   Naive guess =   1617.  ( 50.53 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex24.train[0m : i/o =     64/      1  [1;36mand =    4795[0m  [1;35mlev = 1215[0m [1;35m(1215.00)[0m  mem = 0.06 MB
-Finished reading 3200 simulation patterns for 64 inputs. Probability of 1 at the output is  51.00 %.
-Total =   3200.  Errors =   1582.  Correct =   1618.  ( 50.56 %)   Naive guess =   1632.  ( 51.00 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex78.train[0m : i/o =     16/      1  [1;36mand =    9179[0m  [1;35mlev = 2403[0m [1;35m(2403.00)[0m  mem = 0.11 MB
-Finished reading 3200 simulation patterns for 16 inputs. Probability of 1 at the output is  63.12 %.
-Total =   3200.  Errors =   1324.  Correct =   1876.  ( 58.62 %)   Naive guess =   2020.  ( 63.12 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex28.train[0m : i/o =    256/      1  [1;36mand =    3562[0m  [1;35mlev =  901[0m [1;35m(901.00)[0m  mem = 0.05 MB
-Finished reading 3200 simulation patterns for 256 inputs. Probability of 1 at the output is  48.41 %.
-Total =   3200.  Errors =   1632.  Correct =   1568.  ( 49.00 %)   Naive guess =   1651.  ( 51.59 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex88.train[0m : i/o =    196/      1  [1;36mand =     902[0m  [1;35mlev =  235[0m [1;35m(235.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 196 inputs. Probability of 1 at the output is  49.22 %.
-Total =   3200.  Errors =    188.  Correct =   3012.  ( 94.12 %)   Naive guess =   1625.  ( 50.78 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex82.train[0m : i/o =    196/      1  [1;36mand =     713[0m  [1;35mlev =  193[0m [1;35m(193.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 196 inputs. Probability of 1 at the output is  48.62 %.
-Total =   3200.  Errors =    183.  Correct =   3017.  ( 94.28 %)   Naive guess =   1644.  ( 51.38 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex16.train[0m : i/o =     64/      1  [1;36mand =    1016[0m  [1;35mlev =  265[0m [1;35m(265.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 64 inputs. Probability of 1 at the output is  51.44 %.
-Total =   3200.  Errors =    292.  Correct =   2908.  ( 90.88 %)   Naive guess =   1646.  ( 51.44 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex14.train[0m : i/o =    512/      1  [1;36mand =    1082[0m  [1;35mlev =  276[0m [1;35m(276.00)[0m  mem = 0.02 MB
-Finished reading 3200 simulation patterns for 512 inputs. Probability of 1 at the output is  35.53 %.
-Total =   3200.  Errors =    558.  Correct =   2642.  ( 82.56 %)   Naive guess =   2063.  ( 64.47 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex34.train[0m : i/o =    100/      1  [1;36mand =     289[0m  [1;35mlev =   83[0m [1;35m(83.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 100 inputs. Probability of 1 at the output is  50.59 %.
-Total =   3200.  Errors =     65.  Correct =   3135.  ( 97.97 %)   Naive guess =   1619.  ( 50.59 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex01.train[0m : i/o =     32/      1  [1;36mand =     336[0m  [1;35mlev =   93[0m [1;35m(93.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 32 inputs. Probability of 1 at the output is  49.34 %.
-Total =   3200.  Errors =     53.  Correct =   3147.  ( 98.34 %)   Naive guess =   1621.  ( 50.66 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex27.train[0m : i/o =    128/      1  [1;36mand =    3522[0m  [1;35mlev =  887[0m [1;35m(887.00)[0m  mem = 0.04 MB
-Finished reading 3200 simulation patterns for 128 inputs. Probability of 1 at the output is  50.78 %.
-Total =   3200.  Errors =   1385.  Correct =   1815.  ( 56.72 %)   Naive guess =   1625.  ( 50.78 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex32.train[0m : i/o =     60/      1  [1;36mand =     322[0m  [1;35mlev =   91[0m [1;35m(91.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 60 inputs. Probability of 1 at the output is  51.38 %.
-Total =   3200.  Errors =     71.  Correct =   3129.  ( 97.78 %)   Naive guess =   1644.  ( 51.38 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex38.train[0m : i/o =    180/      1  [1;36mand =     276[0m  [1;35mlev =   80[0m [1;35m(80.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 180 inputs. Probability of 1 at the output is  50.50 %.
-Total =   3200.  Errors =     68.  Correct =   3132.  ( 97.88 %)   Naive guess =   1616.  ( 50.50 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex07.train[0m : i/o =    256/      1  [1;36mand =     262[0m  [1;35mlev =   73[0m [1;35m(73.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 256 inputs. Probability of 1 at the output is  49.94 %.
-Total =   3200.  Errors =     74.  Correct =   3126.  ( 97.69 %)   Naive guess =   1602.  ( 50.06 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex17.train[0m : i/o =    128/      1  [1;36mand =     886[0m  [1;35mlev =  230[0m [1;35m(230.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 128 inputs. Probability of 1 at the output is  49.72 %.
-Total =   3200.  Errors =    269.  Correct =   2931.  ( 91.59 %)   Naive guess =   1609.  ( 50.28 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex00.train[0m : i/o =     32/      1  [1;36mand =    4429[0m  [1;35mlev = 1111[0m [1;35m(1111.00)[0m  mem = 0.05 MB
-Finished reading 3200 simulation patterns for 32 inputs. Probability of 1 at the output is  49.94 %.
-Total =   3200.  Errors =   1071.  Correct =   2129.  ( 66.53 %)   Naive guess =   1602.  ( 50.06 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex19.train[0m : i/o =    512/      1  [1;36mand =     717[0m  [1;35mlev =  190[0m [1;35m(190.00)[0m  mem = 0.02 MB
-Finished reading 3200 simulation patterns for 512 inputs. Probability of 1 at the output is  49.94 %.
-Total =   3200.  Errors =    320.  Correct =   2880.  ( 90.00 %)   Naive guess =   1602.  ( 50.06 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex42.train[0m : i/o =     32/      1  [1;36mand =    6224[0m  [1;35mlev = 1571[0m [1;35m(1571.00)[0m  mem = 0.07 MB
-Finished reading 3200 simulation patterns for 32 inputs. Probability of 1 at the output is  50.12 %.
-Total =   3200.  Errors =   1657.  Correct =   1543.  ( 48.22 %)   Naive guess =   1604.  ( 50.12 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex85.train[0m : i/o =    196/      1  [1;36mand =     589[0m  [1;35mlev =  160[0m [1;35m(160.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 196 inputs. Probability of 1 at the output is  48.16 %.
-Total =   3200.  Errors =    190.  Correct =   3010.  ( 94.06 %)   Naive guess =   1659.  ( 51.84 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex89.train[0m : i/o =    196/      1  [1;36mand =     710[0m  [1;35mlev =  181[0m [1;35m(181.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 196 inputs. Probability of 1 at the output is  49.22 %.
-Total =   3200.  Errors =    170.  Correct =   3030.  ( 94.69 %)   Naive guess =   1625.  ( 50.78 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex72.train[0m : i/o =     35/      1  [1;36mand =     497[0m  [1;35mlev =  149[0m [1;35m(149.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 35 inputs. Probability of 1 at the output is  24.44 %.
-Total =   3200.  Errors =    109.  Correct =   3091.  ( 96.59 %)   Naive guess =   2418.  ( 75.56 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex90.train[0m : i/o =    768/      1  [1;36mand =    2858[0m  [1;35mlev =  728[0m [1;35m(728.00)[0m  mem = 0.05 MB
-Finished reading 3200 simulation patterns for 768 inputs. Probability of 1 at the output is  49.62 %.
-Total =   3200.  Errors =   1430.  Correct =   1770.  ( 55.31 %)   Naive guess =   1612.  ( 50.38 %)
-ABC command line: "source script.scr".
-
-[1;37mmix_train_valid/aig/ex35.train[0m : i/o =    120/      1  [1;36mand =     283[0m  [1;35mlev =   83[0m [1;35m(83.00)[0m  mem = 0.01 MB
-Finished reading 3200 simulation patterns for 120 inputs. Probability of 1 at the output is  50.25 %.
-Total =   3200.  Errors =     60.  Correct =   3140.  ( 98.12 %)   Naive guess =   1608.  ( 50.25 %)
+[1;37mmix_train_valid/aig/ex77.train[0m : i/o =     16/      1  [1;36mand =    4593[0m  [1;35mlev = 1286[0m [1;35m(1286.00)[0m  mem = 0.05 MB
+Finished reading 3200 simulation patterns for 16 inputs. Probability of 1 at the output is  79.22 %.
+Total =   3200.  Errors =    513.  Correct =   2687.  ( 83.97 %)   Naive guess =   2535.  ( 79.22 %)

@@ -1,4 +1,4 @@
-read_eqn mix_train_valid/trained_trees_sop/ex35.eqn
+read_eqn mix_train_valid/trained_trees_sop/ex56.eqn
 strash
-write_aiger mix_train_valid/aig/ex35.train.aig
-&read mix_train_valid/aig/ex35.train.aig; &ps;&mltest mix_train_valid/benchmarks/ex35.valid.pla
+write_aiger mix_train_valid/aig/ex56.train.aig
+&read mix_train_valid/aig/ex56.train.aig; &ps;&mltest mix_train_valid/benchmarks/ex56.valid.pla
