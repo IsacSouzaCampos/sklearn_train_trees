@@ -120,7 +120,7 @@ def change_optimize_sop_file(inorder, _expr):
                 new_string += f'for i in range(len(inorder)):{space*4}# continue\n'
                 new_string += f'{space}vars_dict[inorder[i]] = inorder_vars[i]{space}# continue'
             elif 'optimized_eqn =' in line:
-                new_string += f'optimized_eqn = {_expr.replace(", )", ")").replace(";", "")}\n'
+                new_string += f'{space}optimized_eqn = {_expr.replace(", )", ")").replace(";", "")}\n'
             else:
                 new_string += f'{line}\n'
 
@@ -165,15 +165,15 @@ def order_ex_results(string):
     return result
 
 
-def aig_maker(_dir_path):   # dir_path = path to eqn files
+def aig_maker(_path_dir, _target_dir):   # dir_path = path to eqn files
     file = open('mltest.txt', 'w+')
     file.truncate(0)
     file.close()
 
-    for _path in os.listdir(_dir_path):
+    for _path in os.listdir(_path_dir):
         if '.eqn' in _path:
-            new_file = str(f'mix_train_valid/aig/{_path[:4]}.train.aig')
-            script = str(f'read_eqn {_dir_path}/{_path}\nstrash\nwrite_aiger {new_file}\n&read {new_file}; &ps;'
+            new_file = str(f'{_target_dir}/{_path[:4]}.train.aig')
+            script = str(f'read_eqn {_path_dir}/{_path}\nstrash\nwrite_aiger {new_file}\n&read {new_file}; &ps;'
                          f'&mltest mix_train_valid/benchmarks/{_path[:4]}.valid.pla')
 
             script_file = open('script.scr', 'w+')
@@ -184,7 +184,7 @@ def aig_maker(_dir_path):   # dir_path = path to eqn files
             print(f'{_path[:4]}.train.aig finished')
 
 
-def mltest_data_maker():
+def mltest_data_maker(_results_target_dir):
     num_of_ands = ''
     accuracy = ''
 
@@ -207,8 +207,8 @@ def mltest_data_maker():
             elif 'does not match the AIG' in line:
                 accuracy += f'{ex} failed\n'
 
-    num_of_ands_file = open('mix_train_valid/ands.txt', 'w+')
-    accuracy_file = open('mix_train_valid/accuracy.txt', 'w+')
+    num_of_ands_file = open(_results_target_dir, 'w+')
+    accuracy_file = open(_results_target_dir, 'w+')
     print(num_of_ands)
     num_of_ands_file.write(order_ex_results(num_of_ands))
     print(accuracy)
@@ -313,20 +313,20 @@ def run(_dir_path, _path, _max_depth):
 # https://pyeda.readthedocs.io/en/latest/2llm.html
 
 
-dir_path = 'mix_train_valid/trained_trees_sop'
 acc_tree_means = []
 acc_tree_mean_dict = {}
 
 results = []
 count = 0
 
-for path in os.listdir(dir_path):
+for path in os.listdir('mix_train_valid/trained_trees_sop'):
     if '.eqn' not in path:
         continue
     # if count == 1:
     #     break
     #     count += 1
-    optimize_sop(dir_path, path)
+    print(path)
+    optimize_sop('mix_train_valid/trained_trees_sop', path)
 
 # with concurrent.futures.ProcessPoolExecutor() as executor:
 #     for path in os.listdir(dir_path):

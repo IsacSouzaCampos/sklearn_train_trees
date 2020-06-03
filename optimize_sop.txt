@@ -1,11 +1,15 @@
 from pyeda.inter import *
 
 
+file = open('simplified_expr.txt', 'w+')
+
 inorder = ...
 
-optimized_eqn = ...
+try:
+    optimized_eqn = ...
+    file.write(str(optimized_eqn.simplify()))
+except Exception as e:
+    file.write(str(e))
 
-file = open('simplified_expr.txt', 'w+')
-file.write(str(optimized_eqn.simplify()))
 file.close()
 
