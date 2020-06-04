@@ -319,14 +319,28 @@ acc_tree_mean_dict = {}
 results = []
 count = 0
 
-for path in os.listdir('mix_train_valid/trained_trees_sop'):
-    if '.eqn' not in path:
+dir_path = 'Benchmarks_2'
+target_path = 'Benchmarks_2_aig'
+for path in os.listdir(dir_path):
+    if '.train' not in path and '.valid' not in path:
         continue
-    # if count == 1:
-    #     break
-    #     count += 1
-    print(path)
-    optimize_sop('mix_train_valid/trained_trees_sop', path)
+    command = str(f'read_pla {dir_path}/{path}\nstrash\nwrite_aiger {target_path}/'
+                  f'{path.replace(".pla", ".aig")}')
+
+    script = open('script.scr', 'w+')
+    script.write(command)
+    script.close()
+
+    os.system('./abc -c "source script.scr"')
+
+# for path in os.listdir('mix_train_valid/trained_trees_sop'):
+#     if '.eqn' not in path:
+#         continue
+#     # if count == 1:
+#     #     break
+#     #     count += 1
+#     print(path)
+#     optimize_sop('mix_train_valid/trained_trees_sop', path)
 
 # with concurrent.futures.ProcessPoolExecutor() as executor:
 #     for path in os.listdir(dir_path):
