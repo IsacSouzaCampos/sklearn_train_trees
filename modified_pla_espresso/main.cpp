@@ -31,7 +31,7 @@ int main(int argc, char** argv) {
     }
 
 
-    omp_set_num_threads(5);
+    omp_set_num_threads(10);
     #pragma omp parallel for
     for(int i = 0; i < final_order.size(); i++) {
         int element = final_order[i];
