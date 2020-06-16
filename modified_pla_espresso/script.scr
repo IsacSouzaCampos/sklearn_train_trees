@@ -1,0 +1,3 @@
+read_pla Benchmarks_2_espresso/ex35.pla
+strash
+write_aiger Benchmarks_2_espresso_aig/ex35.aig

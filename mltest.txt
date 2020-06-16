@@ -1,8 +1,0 @@
-ABC command line: "source script.scr".
-
-[1;37mfull_adder_example/full.train[0m : i/o =      3/      1  [1;36mand =       7[0m  [1;35mlev =    4[0m [1;35m(4.00)[0m  mem = 0.00 MB
-Cannot open file "mix_train_valid/benchmarks/full.valid.pla" for reading.
-ABC command line: "source script.scr".
-
-[1;37mfull_adder_example/inco.train[0m : i/o =      3/      1  [1;36mand =       4[0m  [1;35mlev =    3[0m [1;35m(3.00)[0m  mem = 0.00 MB
-Cannot open file "mix_train_valid/benchmarks/inco.valid.pla" for reading.

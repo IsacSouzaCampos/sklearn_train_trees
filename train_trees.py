@@ -165,7 +165,7 @@ def order_ex_results(string):
     return result
 
 
-def aig_maker(_path_dir, _target_dir):   # dir_path = path to eqn files
+def aig_maker(_path_dir, _target_dir):   # _path_dir = path to eqn files
     file = open('mltest.txt', 'w+')
     file.truncate(0)
     file.close()
@@ -322,7 +322,7 @@ path = 'full_adder'
 # file = open(f'full_adder_example/{path}.eqn', 'w+')
 # file.write(eqn_maker(expr, get_number_of_inputs(f'full_adder_example/{path}.train.pla')))
 # file.close()
-aig_maker('full_adder_example', 'full_adder_example')
+aig_maker('modified_pla_espresso/Benchmarks_2_espresso', 'modified_pla_espresso/Benchmarks_2_espresso_aig')
 
 # results = []
 # count = 0
