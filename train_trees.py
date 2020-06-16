@@ -142,9 +142,9 @@ def train_tree(_max_depth, train_data, test_data):
     return tree, acc_tree
 
 
-def get_number_of_inputs(_path):
-    with open(_path) as file:
-        for line in file:
+def get_number_of_inputs(full_path):
+    with open(full_path) as _file:
+        for line in _file:
             if '.i' in line:
                 return int(line.split(' ')[1])
 
@@ -309,29 +309,37 @@ def run(_dir_path, _path, _max_depth):
 
     return output_str, total_acc_tr, _expr
 
+
 # para minimizar sop's, olhar:
 # https://pyeda.readthedocs.io/en/latest/2llm.html
 
+# acc_tree_means = []
+# acc_tree_mean_dict = {}
 
-acc_tree_means = []
-acc_tree_mean_dict = {}
+path = 'full_adder'
+# out_str, acc, expr = run('full_adder_example', f'{path}.data', 15)
+# print(acc)
+# file = open(f'full_adder_example/{path}.eqn', 'w+')
+# file.write(eqn_maker(expr, get_number_of_inputs(f'full_adder_example/{path}.train.pla')))
+# file.close()
+aig_maker('full_adder_example', 'full_adder_example')
 
-results = []
-count = 0
-
-dir_path = 'Benchmarks_2'
-target_path = 'Benchmarks_2_aig'
-for path in os.listdir(dir_path):
-    if '.train' not in path and '.valid' not in path:
-        continue
-    command = str(f'read_pla {dir_path}/{path}\nstrash\nwrite_aiger {target_path}/'
-                  f'{path.replace(".pla", ".aig")}')
-
-    script = open('script.scr', 'w+')
-    script.write(command)
-    script.close()
-
-    os.system('./abc -c "source script.scr"')
+# results = []
+# count = 0
+#
+# dir_path = 'full_adder_example'
+# target_path = 'modified_pla_espresso/Benchmarks_2_espresso_aig'
+# for path in os.listdir(dir_path):
+#     if '.pla' not in path:
+#         continue
+#     command = str(f'read_pla {dir_path}/{path}\nstrash\nwrite_aiger {target_path}/'
+#                   f'{path.replace(".pla", ".aig")}')
+#
+#     script = open('script.scr', 'w+')
+#     script.write(command)
+#     script.close()
+#
+#     os.system('./abc -c "source script.scr"')
 
 # for path in os.listdir('mix_train_valid/trained_trees_sop'):
 #     if '.eqn' not in path:

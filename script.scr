@@ -1,3 +1,4 @@
-read_pla Benchmarks_2/ex54.train.pla
+read_eqn full_adder_example/incomplete_full_adder.eqn
 strash
-write_aiger Benchmarks_2_aig/ex54.train.aig
+write_aiger full_adder_example/inco.train.aig
+&read full_adder_example/inco.train.aig; &ps;&mltest mix_train_valid/benchmarks/inco.valid.pla

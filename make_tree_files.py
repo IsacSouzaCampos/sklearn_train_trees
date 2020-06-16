@@ -12,19 +12,19 @@ def save_names_file(nfeat, filename):
 	f.close()
 
 
-dir_path = 'mix_train_valid/benchmarks'
+dir_path = 'full_adder_example'
 
 output_csv = open('c50_results.csv', 'w')
 print(','.join(['base_name', 'sk_acc_tree', 'sk_acc_rf', 'tr_acc', 'te_acc', 'eq_one', 'eq_zero']), file=output_csv)
 
 for path in os.listdir(dir_path):
-	if '.train' in path:
+	if '.train' in path and '.aig' not in path:
 		print(path)
 
 print('='*20)
 
 for path in os.listdir(dir_path):
-	if '.train' not in path or '.txt' in path:
+	if '.train' not in path or '.aig' in path:
 		continue
 
 	base_name = path.split('.train')[0]
@@ -60,9 +60,9 @@ for path in os.listdir(dir_path):
 
 	train_data = np.array(train_data)
 	test_data = np.array(test_data)
-	np.savetxt(f'mix_train_valid/tree_files/{c50f_data}', train_data, fmt='%c', delimiter=',')
-	np.savetxt(f'mix_train_valid/tree_files/{c50f_test}', test_data, fmt='%c', delimiter=',')
-	save_names_file(nfeat=train_data.shape[1]-1, filename=f'mix_train_valid/tree_files/{c50f_names}')
+	np.savetxt(f'full_adder_example/{c50f_data}', train_data, fmt='%c', delimiter=',')
+	np.savetxt(f'full_adder_example/{c50f_test}', test_data, fmt='%c', delimiter=',')
+	save_names_file(nfeat=train_data.shape[1]-1, filename=f'full_adder_example/{c50f_names}')
 
 
 output_csv.close()
