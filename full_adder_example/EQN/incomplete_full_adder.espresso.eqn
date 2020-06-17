@@ -1,0 +1,5 @@
+# Equations for "incomplete_full_adder.espresso" written by ABC on Wed Jun 17 10:05:21 2020
+INORDER = x0 x1 x2;
+OUTORDER = z0;
+z0 = x0 + x1;
+

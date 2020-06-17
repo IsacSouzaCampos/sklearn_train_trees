@@ -1,4 +1,4 @@
-read_eqn full_adder_example/incomplete_full_adder.eqn
+read_eqn sklearn_sop_15/ex35.eqn
 strash
-write_aiger full_adder_example/inco.train.aig
-&read full_adder_example/inco.train.aig; &ps;&mltest mix_train_valid/benchmarks/inco.valid.pla
+write_aiger sklearn_aig_15/ex35.aig
+&read sklearn_aig_15/ex35.aig; &ps;&mltest IWLS2020-benchmarks/ex35.valid.pla

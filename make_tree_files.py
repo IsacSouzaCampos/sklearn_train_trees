@@ -12,18 +12,19 @@ def save_names_file(nfeat, filename):
 	f.close()
 
 
-dir_path = 'full_adder_example'
+source_path = 'IWLS2020-benchmarks'
+target_path = 'tree_input_files'
 
 output_csv = open('c50_results.csv', 'w')
 print(','.join(['base_name', 'sk_acc_tree', 'sk_acc_rf', 'tr_acc', 'te_acc', 'eq_one', 'eq_zero']), file=output_csv)
 
-for path in os.listdir(dir_path):
+for path in os.listdir(source_path):
 	if '.train' in path and '.aig' not in path:
 		print(path)
 
 print('='*20)
 
-for path in os.listdir(dir_path):
+for path in os.listdir(source_path):
 	if '.train' not in path or '.aig' in path:
 		continue
 
@@ -33,9 +34,9 @@ for path in os.listdir(dir_path):
 	c50f_test = base_name + '.test'
 	c50f_output = base_name + '.out'
 
-	ftrain = open(f'{dir_path}/{path}', 'r')
+	ftrain = open(f'{source_path}/{path}', 'r')
 	path = path.replace('.train', '.valid')
-	ftest = open(f'{dir_path}/{path}', 'r')
+	ftest = open(f'{source_path}/{path}', 'r')
 
 	lines = ftrain.readlines()
 	lines_test = ftest.readlines()
@@ -60,9 +61,9 @@ for path in os.listdir(dir_path):
 
 	train_data = np.array(train_data)
 	test_data = np.array(test_data)
-	np.savetxt(f'full_adder_example/{c50f_data}', train_data, fmt='%c', delimiter=',')
-	np.savetxt(f'full_adder_example/{c50f_test}', test_data, fmt='%c', delimiter=',')
-	save_names_file(nfeat=train_data.shape[1]-1, filename=f'full_adder_example/{c50f_names}')
+	np.savetxt(f'{target_path}/{c50f_data}', train_data, fmt='%c', delimiter=',')
+	np.savetxt(f'{target_path}/{c50f_test}', test_data, fmt='%c', delimiter=',')
+	save_names_file(nfeat=train_data.shape[1]-1, filename=f'{target_path}/{c50f_names}')
 
 
 output_csv.close()

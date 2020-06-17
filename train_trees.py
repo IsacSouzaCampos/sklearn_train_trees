@@ -4,7 +4,6 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.tree import _tree
 from copy import deepcopy
 import numpy as np
-import concurrent.futures
 
 
 def pythonize_sop(sop):
@@ -165,32 +164,32 @@ def order_ex_results(string):
     return result
 
 
-def aig_maker(_path_dir, _target_dir):   # _path_dir = path to eqn files
+def aig_maker(_source_path, _target_path):   # _path_dir = path to eqn files
     file = open('mltest.txt', 'w+')
     file.truncate(0)
     file.close()
 
-    for _path in os.listdir(_path_dir):
+    for _path in os.listdir(_source_path):
         if '.eqn' in _path:
-            new_file = str(f'{_target_dir}/{_path[:4]}.train.aig')
-            script = str(f'read_eqn {_path_dir}/{_path}\nstrash\nwrite_aiger {new_file}\n&read {new_file}; &ps;'
-                         f'&mltest mix_train_valid/benchmarks/{_path[:4]}.valid.pla')
+            new_file = str(f'{_target_path}/{_path[:4]}.aig')
+            script = str(f'read_eqn {_source_path}/{_path}\nstrash\nwrite_aiger {new_file}\n&read {new_file}; &ps;'
+                         f'&mltest IWLS2020-benchmarks/{_path[:4]}.valid.pla')
 
             script_file = open('script.scr', 'w+')
             script_file.write(script)
             script_file.close()
 
             os.system('./abc -c \'source script.scr\' >> mltest.txt')
-            print(f'{_path[:4]}.train.aig finished')
+            print(f'{_path[:4]}.aig finished')
 
 
-def mltest_data_maker(_results_target_dir):
+def mltest_data_maker(_source_path, _max_depth):
     num_of_ands = ''
     accuracy = ''
 
-    with open('mltest.txt') as file:
+    with open(f'{_source_path}/mltest.txt') as _file:
         ex = ''
-        for line in file:
+        for line in _file:
             if 'Total' in line:
                 vec = line.split('  ( ')
                 accuracy += f'{ex} {vec[1][:5]}\n'
@@ -207,8 +206,8 @@ def mltest_data_maker(_results_target_dir):
             elif 'does not match the AIG' in line:
                 accuracy += f'{ex} failed\n'
 
-    num_of_ands_file = open(_results_target_dir, 'w+')
-    accuracy_file = open(_results_target_dir, 'w+')
+    num_of_ands_file = open(f'sk_{_max_depth}_num_of_ands', 'w+')
+    accuracy_file = open(f'sk_{_max_depth}_accuracy', 'w+')
     print(num_of_ands)
     num_of_ands_file.write(order_ex_results(num_of_ands))
     print(accuracy)
@@ -290,8 +289,8 @@ def eqn_maker(_expr, n_inputs):
     return f'{header}{body}'
 
 
-def run(_dir_path, _path, _max_depth):
-    base_name = _path.split('.data')[0]
+def run(_dir_path, _file_name, _max_depth):
+    base_name = _file_name.split('.data')[0]
     c50f_data = base_name + '.data'
     c50f_test = base_name + '.test'
 
@@ -313,58 +312,18 @@ def run(_dir_path, _path, _max_depth):
 # para minimizar sop's, olhar:
 # https://pyeda.readthedocs.io/en/latest/2llm.html
 
-# acc_tree_means = []
-# acc_tree_mean_dict = {}
+max_depth = 15
 
-path = 'full_adder'
-# out_str, acc, expr = run('full_adder_example', f'{path}.data', 15)
-# print(acc)
-# file = open(f'full_adder_example/{path}.eqn', 'w+')
-# file.write(eqn_maker(expr, get_number_of_inputs(f'full_adder_example/{path}.train.pla')))
-# file.close()
-aig_maker('modified_pla_espresso/Benchmarks_2_espresso', 'modified_pla_espresso/Benchmarks_2_espresso_aig')
+for file_name in os.listdir('tree_input_files'):
+    if '.data' not in file_name:
+        continue
+    results = run('tree_input_files', file_name, max_depth)
+    sop = eqn_maker(results[2], get_number_of_inputs(f'IWLS2020-benchmarks/{file_name.replace(".data", ".train.pla")}'))
 
-# results = []
-# count = 0
-#
-# dir_path = 'full_adder_example'
-# target_path = 'modified_pla_espresso/Benchmarks_2_espresso_aig'
-# for path in os.listdir(dir_path):
-#     if '.pla' not in path:
-#         continue
-#     command = str(f'read_pla {dir_path}/{path}\nstrash\nwrite_aiger {target_path}/'
-#                   f'{path.replace(".pla", ".aig")}')
-#
-#     script = open('script.scr', 'w+')
-#     script.write(command)
-#     script.close()
-#
-#     os.system('./abc -c "source script.scr"')
+    file = open(f'sklearn_sop_{max_depth}/{file_name.replace(".data", ".eqn")}', 'w+')
+    file.write(sop)
+    file.close()
+    print(f'{file_name.replace(".data", ".eqn")} finished')
 
-# for path in os.listdir('mix_train_valid/trained_trees_sop'):
-#     if '.eqn' not in path:
-#         continue
-#     # if count == 1:
-#     #     break
-#     #     count += 1
-#     print(path)
-#     optimize_sop('mix_train_valid/trained_trees_sop', path)
-
-# with concurrent.futures.ProcessPoolExecutor() as executor:
-#     for path in os.listdir(dir_path):
-#         if '.eqn' not in path:
-#             continue
-#         # if count == 1:
-#         #     break
-#         count += 1
-#
-#         results.append(executor.submit(optimize_sop, dir_path, path))
-#
-#         for r in results:
-#             out_str, tot_ac_tr, exp = r.result()
-#             exp = exp.replace('not', '!').replace('and', '*').replace('or', '+')
-#
-#             expr_output = open(f'mix_train_valid/train_trees_sop/{out_str[:4]}.eqn', 'w+')
-#             expr_output.write(eqn_maker(exp, get_number_of_inputs(f'mix_train_valid/benchmarks/'
-#                                                                   f'{out_str[:4]}.train.pla')))
-#             expr_output.close()
+aig_maker(f'sklearn_sop_{max_depth}', f'sklearn_aig_{max_depth}')
+mltest_data_maker('.', max_depth)

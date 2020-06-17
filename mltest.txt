@@ -1,0 +1,500 @@
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex65[0m : i/o =     19/      1  [1;36mand =     196[0m  [1;35mlev =   63[0m [1;35m(63.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 19 inputs. Probability of 1 at the output is  33.56 %.
+Total =   6400.  Errors =     48.  Correct =   6352.  ( 99.25 %)   Naive guess =   4252.  ( 66.44 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex47[0m : i/o =     66/      1  [1;36mand =    3208[0m  [1;35mlev =  813[0m [1;35m(813.00)[0m  mem = 0.04 MB
+Finished reading 6400 simulation patterns for 66 inputs. Probability of 1 at the output is  50.53 %.
+Total =   6400.  Errors =   3247.  Correct =   3153.  ( 49.27 %)   Naive guess =   3234.  ( 50.53 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex69[0m : i/o =     16/      1  [1;36mand =     195[0m  [1;35mlev =   61[0m [1;35m(61.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 16 inputs. Probability of 1 at the output is  27.70 %.
+Total =   6400.  Errors =     56.  Correct =   6344.  ( 99.12 %)   Naive guess =   4627.  ( 72.30 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex26[0m : i/o =    128/      1  [1;36mand =    2702[0m  [1;35mlev =  684[0m [1;35m(684.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 128 inputs. Probability of 1 at the output is  49.94 %.
+Total =   6400.  Errors =   3223.  Correct =   3177.  ( 49.64 %)   Naive guess =   3204.  ( 50.06 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex15[0m : i/o =     32/      1  [1;36mand =     838[0m  [1;35mlev =  219[0m [1;35m(219.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 32 inputs. Probability of 1 at the output is  48.89 %.
+Total =   6400.  Errors =    551.  Correct =   5849.  ( 91.39 %)   Naive guess =   3271.  ( 51.11 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex43[0m : i/o =     18/      1  [1;36mand =    2783[0m  [1;35mlev =  703[0m [1;35m(703.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 18 inputs. Probability of 1 at the output is  50.86 %.
+Total =   6400.  Errors =   1091.  Correct =   5309.  ( 82.95 %)   Naive guess =   3255.  ( 50.86 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex40[0m : i/o =     16/      1  [1;36mand =    2359[0m  [1;35mlev =  594[0m [1;35m(594.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 16 inputs. Probability of 1 at the output is  50.20 %.
+Total =   6400.  Errors =    812.  Correct =   5588.  ( 87.31 %)   Naive guess =   3213.  ( 50.20 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex99[0m : i/o =    768/      1  [1;36mand =    1747[0m  [1;35mlev =  449[0m [1;35m(449.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 768 inputs. Probability of 1 at the output is  50.75 %.
+Total =   6400.  Errors =   2316.  Correct =   4084.  ( 63.81 %)   Naive guess =   3248.  ( 50.75 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex52[0m : i/o =     59/      1  [1;36mand =    2320[0m  [1;35mlev =  593[0m [1;35m(593.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 59 inputs. Probability of 1 at the output is  50.06 %.
+Total =   6400.  Errors =   2024.  Correct =   4376.  ( 68.38 %)   Naive guess =   3204.  ( 50.06 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex21[0m : i/o =     16/      1  [1;36mand =     928[0m  [1;35mlev =  246[0m [1;35m(246.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 16 inputs. Probability of 1 at the output is  49.84 %.
+Total =   6400.  Errors =    267.  Correct =   6133.  ( 95.83 %)   Naive guess =   3210.  ( 50.16 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex12[0m : i/o =    128/      1  [1;36mand =     947[0m  [1;35mlev =  244[0m [1;35m(244.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 128 inputs. Probability of 1 at the output is  35.42 %.
+Total =   6400.  Errors =   1015.  Correct =   5385.  ( 84.14 %)   Naive guess =   4133.  ( 64.58 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex87[0m : i/o =    196/      1  [1;36mand =     621[0m  [1;35mlev =  171[0m [1;35m(171.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 196 inputs. Probability of 1 at the output is  49.94 %.
+Total =   6400.  Errors =    355.  Correct =   6045.  ( 94.45 %)   Naive guess =   3204.  ( 50.06 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex44[0m : i/o =     64/      1  [1;36mand =    3171[0m  [1;35mlev =  803[0m [1;35m(803.00)[0m  mem = 0.04 MB
+Finished reading 6400 simulation patterns for 64 inputs. Probability of 1 at the output is  49.53 %.
+Total =   6400.  Errors =   3207.  Correct =   3193.  ( 49.89 %)   Naive guess =   3230.  ( 50.47 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex49[0m : i/o =    130/      1  [1;36mand =    2687[0m  [1;35mlev =  685[0m [1;35m(685.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 130 inputs. Probability of 1 at the output is  49.73 %.
+Total =   6400.  Errors =   3267.  Correct =   3133.  ( 48.95 %)   Naive guess =   3217.  ( 50.27 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex80[0m : i/o =    196/      1  [1;36mand =     984[0m  [1;35mlev =  263[0m [1;35m(263.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 196 inputs. Probability of 1 at the output is  48.75 %.
+Total =   6400.  Errors =    822.  Correct =   5578.  ( 87.16 %)   Naive guess =   3280.  ( 51.25 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex75[0m : i/o =     16/      1  [1;36mand =    2782[0m  [1;35mlev =  726[0m [1;35m(726.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 16 inputs. Probability of 1 at the output is  59.08 %.
+Total =   6400.  Errors =   1239.  Correct =   5161.  ( 80.64 %)   Naive guess =   3781.  ( 59.08 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex73[0m : i/o =     16/      1  [1;36mand =    1652[0m  [1;35mlev =  423[0m [1;35m(423.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 16 inputs. Probability of 1 at the output is  65.09 %.
+Total =   6400.  Errors =    499.  Correct =   5901.  ( 92.20 %)   Naive guess =   4166.  ( 65.09 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex54[0m : i/o =     48/      1  [1;36mand =     467[0m  [1;35mlev =  126[0m [1;35m(126.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 48 inputs. Probability of 1 at the output is  49.58 %.
+Total =   6400.  Errors =    391.  Correct =   6009.  ( 93.89 %)   Naive guess =   3227.  ( 50.42 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex55[0m : i/o =     42/      1  [1;36mand =     298[0m  [1;35mlev =   89[0m [1;35m(89.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 42 inputs. Probability of 1 at the output is  20.09 %.
+Total =   6400.  Errors =    178.  Correct =   6222.  ( 97.22 %)   Naive guess =   5114.  ( 79.91 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex84[0m : i/o =    196/      1  [1;36mand =     519[0m  [1;35mlev =  138[0m [1;35m(138.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 196 inputs. Probability of 1 at the output is  51.31 %.
+Total =   6400.  Errors =    356.  Correct =   6044.  ( 94.44 %)   Naive guess =   3284.  ( 51.31 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex33[0m : i/o =     80/      1  [1;36mand =     245[0m  [1;35mlev =   70[0m [1;35m(70.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 80 inputs. Probability of 1 at the output is  49.73 %.
+Total =   6400.  Errors =    153.  Correct =   6247.  ( 97.61 %)   Naive guess =   3217.  ( 50.27 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex83[0m : i/o =    196/      1  [1;36mand =     502[0m  [1;35mlev =  146[0m [1;35m(146.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 196 inputs. Probability of 1 at the output is  48.41 %.
+Total =   6400.  Errors =    261.  Correct =   6139.  ( 95.92 %)   Naive guess =   3302.  ( 51.59 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex74[0m : i/o =     16/      1  [1;36mand =    6589[0m  [1;35mlev = 1653[0m [1;35m(1653.00)[0m  mem = 0.08 MB
+Finished reading 6400 simulation patterns for 16 inputs. Probability of 1 at the output is  49.83 %.
+Total =   6400.  Errors =   3204.  Correct =   3196.  ( 49.94 %)   Naive guess =   3211.  ( 50.17 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex41[0m : i/o =     10/      1  [1;36mand =     301[0m  [1;35mlev =   90[0m [1;35m(90.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 10 inputs. Probability of 1 at the output is  51.48 %.
+Total =   6400.  Errors =      0.  Correct =   6400.  (100.00 %)   Naive guess =   3295.  ( 51.48 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex91[0m : i/o =    768/      1  [1;36mand =    1932[0m  [1;35mlev =  503[0m [1;35m(503.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 768 inputs. Probability of 1 at the output is  49.53 %.
+Total =   6400.  Errors =   2573.  Correct =   3827.  ( 59.80 %)   Naive guess =   3230.  ( 50.47 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex71[0m : i/o =     23/      1  [1;36mand =     177[0m  [1;35mlev =   40[0m [1;35m(40.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 23 inputs. Probability of 1 at the output is   9.52 %.
+Total =   6400.  Errors =     78.  Correct =   6322.  ( 98.78 %)   Naive guess =   5791.  ( 90.48 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex76[0m : i/o =     16/      1  [1;36mand =    2481[0m  [1;35mlev =  539[0m [1;35m(539.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 16 inputs. Probability of 1 at the output is  21.23 %.
+Total =   6400.  Errors =   1205.  Correct =   5195.  ( 81.17 %)   Naive guess =   5041.  ( 78.77 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex45[0m : i/o =     34/      1  [1;36mand =    4036[0m  [1;35mlev = 1019[0m [1;35m(1019.00)[0m  mem = 0.05 MB
+Finished reading 6400 simulation patterns for 34 inputs. Probability of 1 at the output is  50.33 %.
+Total =   6400.  Errors =   3169.  Correct =   3231.  ( 50.48 %)   Naive guess =   3221.  ( 50.33 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex36[0m : i/o =    140/      1  [1;36mand =     227[0m  [1;35mlev =   67[0m [1;35m(67.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 140 inputs. Probability of 1 at the output is  49.88 %.
+Total =   6400.  Errors =    154.  Correct =   6246.  ( 97.59 %)   Naive guess =   3208.  ( 50.12 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex10[0m : i/o =     32/      1  [1;36mand =    1215[0m  [1;35mlev =  309[0m [1;35m(309.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 32 inputs. Probability of 1 at the output is  34.81 %.
+Total =   6400.  Errors =    754.  Correct =   5646.  ( 88.22 %)   Naive guess =   4172.  ( 65.19 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex60[0m : i/o =     43/      1  [1;36mand =     653[0m  [1;35mlev =  163[0m [1;35m(163.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 43 inputs. Probability of 1 at the output is  31.80 %.
+Total =   6400.  Errors =    420.  Correct =   5980.  ( 93.44 %)   Naive guess =   4365.  ( 68.20 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex98[0m : i/o =    768/      1  [1;36mand =    1755[0m  [1;35mlev =  452[0m [1;35m(452.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 768 inputs. Probability of 1 at the output is  50.03 %.
+Total =   6400.  Errors =   2332.  Correct =   4068.  ( 63.56 %)   Naive guess =   3202.  ( 50.03 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex09[0m : i/o =    512/      1  [1;36mand =     225[0m  [1;35mlev =   65[0m [1;35m(65.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 512 inputs. Probability of 1 at the output is  49.94 %.
+Total =   6400.  Errors =    172.  Correct =   6228.  ( 97.31 %)   Naive guess =   3204.  ( 50.06 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex29[0m : i/o =    256/      1  [1;36mand =    2327[0m  [1;35mlev =  589[0m [1;35m(589.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 256 inputs. Probability of 1 at the output is  51.28 %.
+Total =   6400.  Errors =   3120.  Correct =   3280.  ( 51.25 %)   Naive guess =   3282.  ( 51.28 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex92[0m : i/o =    768/      1  [1;36mand =    1591[0m  [1;35mlev =  414[0m [1;35m(414.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 768 inputs. Probability of 1 at the output is  49.83 %.
+Total =   6400.  Errors =   2254.  Correct =   4146.  ( 64.78 %)   Naive guess =   3211.  ( 50.17 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex48[0m : i/o =    256/      1  [1;36mand =    2301[0m  [1;35mlev =  583[0m [1;35m(583.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 256 inputs. Probability of 1 at the output is  50.03 %.
+Total =   6400.  Errors =   3216.  Correct =   3184.  ( 49.75 %)   Naive guess =   3202.  ( 50.03 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex77[0m : i/o =     16/      1  [1;36mand =    3182[0m  [1;35mlev =  896[0m [1;35m(896.00)[0m  mem = 0.04 MB
+Finished reading 6400 simulation patterns for 16 inputs. Probability of 1 at the output is  78.77 %.
+Total =   6400.  Errors =   1195.  Correct =   5205.  ( 81.33 %)   Naive guess =   5041.  ( 78.77 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex62[0m : i/o =     52/      1  [1;36mand =     551[0m  [1;35mlev =  154[0m [1;35m(154.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 52 inputs. Probability of 1 at the output is  83.34 %.
+Total =   6400.  Errors =    355.  Correct =   6045.  ( 94.45 %)   Naive guess =   5334.  ( 83.34 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex20[0m : i/o =     16/      1  [1;36mand =    5836[0m  [1;35mlev = 1475[0m [1;35m(1475.00)[0m  mem = 0.07 MB
+Finished reading 6400 simulation patterns for 16 inputs. Probability of 1 at the output is  50.02 %.
+Total =   6400.  Errors =   2778.  Correct =   3622.  ( 56.59 %)   Naive guess =   3201.  ( 50.02 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex50[0m : i/o =     19/      1  [1;36mand =     647[0m  [1;35mlev =  172[0m [1;35m(172.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 19 inputs. Probability of 1 at the output is  42.81 %.
+Total =   6400.  Errors =    300.  Correct =   6100.  ( 95.31 %)   Naive guess =   3660.  ( 57.19 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex64[0m : i/o =     47/      1  [1;36mand =      15[0m  [1;35mlev =   10[0m [1;35m(10.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 47 inputs. Probability of 1 at the output is  23.83 %.
+Total =   6400.  Errors =      0.  Correct =   6400.  (100.00 %)   Naive guess =   4875.  ( 76.17 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex79[0m : i/o =     16/      1  [1;36mand =    3197[0m  [1;35mlev =  902[0m [1;35m(902.00)[0m  mem = 0.04 MB
+Finished reading 6400 simulation patterns for 16 inputs. Probability of 1 at the output is  78.77 %.
+Total =   6400.  Errors =   1189.  Correct =   5211.  ( 81.42 %)   Naive guess =   5041.  ( 78.77 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex22[0m : i/o =     32/      1  [1;36mand =    4040[0m  [1;35mlev = 1020[0m [1;35m(1020.00)[0m  mem = 0.05 MB
+Finished reading 6400 simulation patterns for 32 inputs. Probability of 1 at the output is  50.28 %.
+Total =   6400.  Errors =   3121.  Correct =   3279.  ( 51.23 %)   Naive guess =   3218.  ( 50.28 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex23[0m : i/o =     32/      1  [1;36mand =    1721[0m  [1;35mlev =  442[0m [1;35m(442.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 32 inputs. Probability of 1 at the output is  49.53 %.
+Total =   6400.  Errors =   1201.  Correct =   5199.  ( 81.23 %)   Naive guess =   3230.  ( 50.47 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex25[0m : i/o =     64/      1  [1;36mand =    2867[0m  [1;35mlev =  723[0m [1;35m(723.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 64 inputs. Probability of 1 at the output is  48.91 %.
+Total =   6400.  Errors =   2813.  Correct =   3587.  ( 56.05 %)   Naive guess =   3270.  ( 51.09 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex37[0m : i/o =    160/      1  [1;36mand =     244[0m  [1;35mlev =   71[0m [1;35m(71.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 160 inputs. Probability of 1 at the output is  50.83 %.
+Total =   6400.  Errors =    196.  Correct =   6204.  ( 96.94 %)   Naive guess =   3253.  ( 50.83 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex94[0m : i/o =    768/      1  [1;36mand =    1892[0m  [1;35mlev =  485[0m [1;35m(485.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 768 inputs. Probability of 1 at the output is  49.64 %.
+Total =   6400.  Errors =   2774.  Correct =   3626.  ( 56.66 %)   Naive guess =   3223.  ( 50.36 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex53[0m : i/o =     45/      1  [1;36mand =    1378[0m  [1;35mlev =  352[0m [1;35m(352.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 45 inputs. Probability of 1 at the output is  46.75 %.
+Total =   6400.  Errors =   1223.  Correct =   5177.  ( 80.89 %)   Naive guess =   3408.  ( 53.25 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex86[0m : i/o =    196/      1  [1;36mand =     528[0m  [1;35mlev =  152[0m [1;35m(152.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 196 inputs. Probability of 1 at the output is  47.73 %.
+Total =   6400.  Errors =    313.  Correct =   6087.  ( 95.11 %)   Naive guess =   3345.  ( 52.27 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex06[0m : i/o =    256/      1  [1;36mand =    2353[0m  [1;35mlev =  605[0m [1;35m(605.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 256 inputs. Probability of 1 at the output is  50.92 %.
+Total =   6400.  Errors =   3233.  Correct =   3167.  ( 49.48 %)   Naive guess =   3259.  ( 50.92 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex03[0m : i/o =     64/      1  [1;36mand =     233[0m  [1;35mlev =   68[0m [1;35m(68.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 64 inputs. Probability of 1 at the output is  50.22 %.
+Total =   6400.  Errors =    185.  Correct =   6215.  ( 97.11 %)   Naive guess =   3214.  ( 50.22 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex51[0m : i/o =     44/      1  [1;36mand =    2505[0m  [1;35mlev =  635[0m [1;35m(635.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 44 inputs. Probability of 1 at the output is  51.67 %.
+Total =   6400.  Errors =   1945.  Correct =   4455.  ( 69.61 %)   Naive guess =   3307.  ( 51.67 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex04[0m : i/o =    128/      1  [1;36mand =    2742[0m  [1;35mlev =  695[0m [1;35m(695.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 128 inputs. Probability of 1 at the output is  49.45 %.
+Total =   6400.  Errors =   3174.  Correct =   3226.  ( 50.41 %)   Naive guess =   3235.  ( 50.55 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex97[0m : i/o =    768/      1  [1;36mand =    1731[0m  [1;35mlev =  447[0m [1;35m(447.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 768 inputs. Probability of 1 at the output is  49.55 %.
+Total =   6400.  Errors =   2416.  Correct =   3984.  ( 62.25 %)   Naive guess =   3229.  ( 50.45 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex31[0m : i/o =     40/      1  [1;36mand =     264[0m  [1;35mlev =   77[0m [1;35m(77.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 40 inputs. Probability of 1 at the output is  49.92 %.
+Total =   6400.  Errors =    136.  Correct =   6264.  ( 97.88 %)   Naive guess =   3205.  ( 50.08 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex70[0m : i/o =     23/      1  [1;36mand =     337[0m  [1;35mlev =  110[0m [1;35m(110.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 23 inputs. Probability of 1 at the output is  93.23 %.
+Total =   6400.  Errors =    114.  Correct =   6286.  ( 98.22 %)   Naive guess =   5967.  ( 93.23 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex93[0m : i/o =    768/      1  [1;36mand =    1612[0m  [1;35mlev =  418[0m [1;35m(418.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 768 inputs. Probability of 1 at the output is  49.61 %.
+Total =   6400.  Errors =   1962.  Correct =   4438.  ( 69.34 %)   Naive guess =   3225.  ( 50.39 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex08[0m : i/o =    512/      1  [1;36mand =    2131[0m  [1;35mlev =  544[0m [1;35m(544.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 512 inputs. Probability of 1 at the output is  50.27 %.
+Total =   6400.  Errors =   3260.  Correct =   3140.  ( 49.06 %)   Naive guess =   3217.  ( 50.27 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex96[0m : i/o =    768/      1  [1;36mand =    1803[0m  [1;35mlev =  459[0m [1;35m(459.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 768 inputs. Probability of 1 at the output is  49.14 %.
+Total =   6400.  Errors =   2335.  Correct =   4065.  ( 63.52 %)   Naive guess =   3255.  ( 50.86 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex61[0m : i/o =     37/      1  [1;36mand =      78[0m  [1;35mlev =   29[0m [1;35m(29.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 37 inputs. Probability of 1 at the output is  25.00 %.
+Total =   6400.  Errors =     29.  Correct =   6371.  ( 99.55 %)   Naive guess =   4800.  ( 75.00 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex13[0m : i/o =    256/      1  [1;36mand =     916[0m  [1;35mlev =  239[0m [1;35m(239.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 256 inputs. Probability of 1 at the output is  35.41 %.
+Total =   6400.  Errors =   1113.  Correct =   5287.  ( 82.61 %)   Naive guess =   4134.  ( 64.59 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex95[0m : i/o =    768/      1  [1;36mand =    1347[0m  [1;35mlev =  357[0m [1;35m(357.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 768 inputs. Probability of 1 at the output is  50.19 %.
+Total =   6400.  Errors =   1685.  Correct =   4715.  ( 73.67 %)   Naive guess =   3212.  ( 50.19 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex81[0m : i/o =    196/      1  [1;36mand =     742[0m  [1;35mlev =  195[0m [1;35m(195.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 196 inputs. Probability of 1 at the output is  50.95 %.
+Total =   6400.  Errors =    587.  Correct =   5813.  ( 90.83 %)   Naive guess =   3261.  ( 50.95 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex11[0m : i/o =     64/      1  [1;36mand =     981[0m  [1;35mlev =  251[0m [1;35m(251.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 64 inputs. Probability of 1 at the output is  35.23 %.
+Total =   6400.  Errors =    873.  Correct =   5527.  ( 86.36 %)   Naive guess =   4145.  ( 64.77 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex59[0m : i/o =    394/      1  [1;36mand =     370[0m  [1;35mlev =  102[0m [1;35m(102.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 394 inputs. Probability of 1 at the output is  49.30 %.
+Total =   6400.  Errors =    391.  Correct =   6009.  ( 93.89 %)   Naive guess =   3245.  ( 50.70 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex02[0m : i/o =     64/      1  [1;36mand =    3084[0m  [1;35mlev =  776[0m [1;35m(776.00)[0m  mem = 0.04 MB
+Finished reading 6400 simulation patterns for 64 inputs. Probability of 1 at the output is  50.12 %.
+Total =   6400.  Errors =   3129.  Correct =   3271.  ( 51.11 %)   Naive guess =   3208.  ( 50.12 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex56[0m : i/o =     83/      1  [1;36mand =     245[0m  [1;35mlev =   74[0m [1;35m(74.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 83 inputs. Probability of 1 at the output is   8.98 %.
+Total =   6400.  Errors =    245.  Correct =   6155.  ( 96.17 %)   Naive guess =   5825.  ( 91.02 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex05[0m : i/o =    128/      1  [1;36mand =     240[0m  [1;35mlev =   68[0m [1;35m(68.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 128 inputs. Probability of 1 at the output is  49.59 %.
+Total =   6400.  Errors =    192.  Correct =   6208.  ( 97.00 %)   Naive guess =   3226.  ( 50.41 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex18[0m : i/o =    256/      1  [1;36mand =     600[0m  [1;35mlev =  161[0m [1;35m(161.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 256 inputs. Probability of 1 at the output is  49.95 %.
+Total =   6400.  Errors =    689.  Correct =   5711.  ( 89.23 %)   Naive guess =   3203.  ( 50.05 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex63[0m : i/o =     38/      1  [1;36mand =     146[0m  [1;35mlev =   41[0m [1;35m(41.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 38 inputs. Probability of 1 at the output is  11.42 %.
+Total =   6400.  Errors =     64.  Correct =   6336.  ( 99.00 %)   Naive guess =   5669.  ( 88.58 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex57[0m : i/o =     24/      1  [1;36mand =     179[0m  [1;35mlev =   50[0m [1;35m(50.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 24 inputs. Probability of 1 at the output is  15.12 %.
+Total =   6400.  Errors =    126.  Correct =   6274.  ( 98.03 %)   Naive guess =   5432.  ( 84.88 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex66[0m : i/o =     47/      1  [1;36mand =     755[0m  [1;35mlev =  212[0m [1;35m(212.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 47 inputs. Probability of 1 at the output is  77.80 %.
+Total =   6400.  Errors =    518.  Correct =   5882.  ( 91.91 %)   Naive guess =   4979.  ( 77.80 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex58[0m : i/o =     80/      1  [1;36mand =     350[0m  [1;35mlev =   99[0m [1;35m(99.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 80 inputs. Probability of 1 at the output is  24.47 %.
+Total =   6400.  Errors =    276.  Correct =   6124.  ( 95.69 %)   Naive guess =   4834.  ( 75.53 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex68[0m : i/o =     33/      1  [1;36mand =     300[0m  [1;35mlev =   88[0m [1;35m(88.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 33 inputs. Probability of 1 at the output is  67.23 %.
+Total =   6400.  Errors =    184.  Correct =   6216.  ( 97.12 %)   Naive guess =   4303.  ( 67.23 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex39[0m : i/o =    200/      1  [1;36mand =     235[0m  [1;35mlev =   70[0m [1;35m(70.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 200 inputs. Probability of 1 at the output is  49.81 %.
+Total =   6400.  Errors =    175.  Correct =   6225.  ( 97.27 %)   Naive guess =   3212.  ( 50.19 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex67[0m : i/o =     46/      1  [1;36mand =     745[0m  [1;35mlev =  210[0m [1;35m(210.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 46 inputs. Probability of 1 at the output is  77.20 %.
+Total =   6400.  Errors =    426.  Correct =   5974.  ( 93.34 %)   Naive guess =   4941.  ( 77.20 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex46[0m : i/o =    128/      1  [1;36mand =    2722[0m  [1;35mlev =  694[0m [1;35m(694.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 128 inputs. Probability of 1 at the output is  50.11 %.
+Total =   6400.  Errors =   3226.  Correct =   3174.  ( 49.59 %)   Naive guess =   3207.  ( 50.11 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex30[0m : i/o =     20/      1  [1;36mand =     265[0m  [1;35mlev =   78[0m [1;35m(78.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 20 inputs. Probability of 1 at the output is  50.19 %.
+Total =   6400.  Errors =    102.  Correct =   6298.  ( 98.41 %)   Naive guess =   3212.  ( 50.19 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex24[0m : i/o =     64/      1  [1;36mand =    3137[0m  [1;35mlev =  790[0m [1;35m(790.00)[0m  mem = 0.04 MB
+Finished reading 6400 simulation patterns for 64 inputs. Probability of 1 at the output is  50.61 %.
+Total =   6400.  Errors =   3272.  Correct =   3128.  ( 48.88 %)   Naive guess =   3239.  ( 50.61 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex78[0m : i/o =     16/      1  [1;36mand =    6142[0m  [1;35mlev = 1614[0m [1;35m(1614.00)[0m  mem = 0.07 MB
+Finished reading 6400 simulation patterns for 16 inputs. Probability of 1 at the output is  62.80 %.
+Total =   6400.  Errors =   2746.  Correct =   3654.  ( 57.09 %)   Naive guess =   4019.  ( 62.80 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex28[0m : i/o =    256/      1  [1;36mand =    2376[0m  [1;35mlev =  605[0m [1;35m(605.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 256 inputs. Probability of 1 at the output is  49.03 %.
+Total =   6400.  Errors =   3207.  Correct =   3193.  ( 49.89 %)   Naive guess =   3262.  ( 50.97 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex88[0m : i/o =    196/      1  [1;36mand =     666[0m  [1;35mlev =  184[0m [1;35m(184.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 196 inputs. Probability of 1 at the output is  47.73 %.
+Total =   6400.  Errors =    390.  Correct =   6010.  ( 93.91 %)   Naive guess =   3345.  ( 52.27 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex82[0m : i/o =    196/      1  [1;36mand =     571[0m  [1;35mlev =  154[0m [1;35m(154.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 196 inputs. Probability of 1 at the output is  48.78 %.
+Total =   6400.  Errors =    428.  Correct =   5972.  ( 93.31 %)   Naive guess =   3278.  ( 51.22 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex16[0m : i/o =     64/      1  [1;36mand =     712[0m  [1;35mlev =  187[0m [1;35m(187.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 64 inputs. Probability of 1 at the output is  50.64 %.
+Total =   6400.  Errors =    636.  Correct =   5764.  ( 90.06 %)   Naive guess =   3241.  ( 50.64 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex14[0m : i/o =    512/      1  [1;36mand =     702[0m  [1;35mlev =  181[0m [1;35m(181.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 512 inputs. Probability of 1 at the output is  34.08 %.
+Total =   6400.  Errors =    925.  Correct =   5475.  ( 85.55 %)   Naive guess =   4219.  ( 65.92 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex34[0m : i/o =    100/      1  [1;36mand =     244[0m  [1;35mlev =   71[0m [1;35m(71.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 100 inputs. Probability of 1 at the output is  51.11 %.
+Total =   6400.  Errors =    166.  Correct =   6234.  ( 97.41 %)   Naive guess =   3271.  ( 51.11 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex01[0m : i/o =     32/      1  [1;36mand =     265[0m  [1;35mlev =   73[0m [1;35m(73.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 32 inputs. Probability of 1 at the output is  49.80 %.
+Total =   6400.  Errors =    132.  Correct =   6268.  ( 97.94 %)   Naive guess =   3213.  ( 50.20 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex27[0m : i/o =    128/      1  [1;36mand =    2500[0m  [1;35mlev =  630[0m [1;35m(630.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 128 inputs. Probability of 1 at the output is  50.75 %.
+Total =   6400.  Errors =   2944.  Correct =   3456.  ( 54.00 %)   Naive guess =   3248.  ( 50.75 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex32[0m : i/o =     60/      1  [1;36mand =     250[0m  [1;35mlev =   71[0m [1;35m(71.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 60 inputs. Probability of 1 at the output is  51.45 %.
+Total =   6400.  Errors =    141.  Correct =   6259.  ( 97.80 %)   Naive guess =   3293.  ( 51.45 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex38[0m : i/o =    180/      1  [1;36mand =     231[0m  [1;35mlev =   68[0m [1;35m(68.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 180 inputs. Probability of 1 at the output is  50.00 %.
+Total =   6400.  Errors =    154.  Correct =   6246.  ( 97.59 %)   Naive guess =   3200.  ( 50.00 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex07[0m : i/o =    256/      1  [1;36mand =     224[0m  [1;35mlev =   65[0m [1;35m(65.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 256 inputs. Probability of 1 at the output is  50.14 %.
+Total =   6400.  Errors =    182.  Correct =   6218.  ( 97.16 %)   Naive guess =   3209.  ( 50.14 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex17[0m : i/o =    128/      1  [1;36mand =     619[0m  [1;35mlev =  165[0m [1;35m(165.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 128 inputs. Probability of 1 at the output is  49.92 %.
+Total =   6400.  Errors =    654.  Correct =   5746.  ( 89.78 %)   Naive guess =   3205.  ( 50.08 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex00[0m : i/o =     32/      1  [1;36mand =    2899[0m  [1;35mlev =  738[0m [1;35m(738.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 32 inputs. Probability of 1 at the output is  49.41 %.
+Total =   6400.  Errors =   2073.  Correct =   4327.  ( 67.61 %)   Naive guess =   3238.  ( 50.59 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex19[0m : i/o =    512/      1  [1;36mand =     558[0m  [1;35mlev =  150[0m [1;35m(150.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 512 inputs. Probability of 1 at the output is  50.94 %.
+Total =   6400.  Errors =    735.  Correct =   5665.  ( 88.52 %)   Naive guess =   3260.  ( 50.94 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex42[0m : i/o =     32/      1  [1;36mand =    4029[0m  [1;35mlev = 1017[0m [1;35m(1017.00)[0m  mem = 0.05 MB
+Finished reading 6400 simulation patterns for 32 inputs. Probability of 1 at the output is  49.84 %.
+Total =   6400.  Errors =   3170.  Correct =   3230.  ( 50.47 %)   Naive guess =   3210.  ( 50.16 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex85[0m : i/o =    196/      1  [1;36mand =     474[0m  [1;35mlev =  131[0m [1;35m(131.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 196 inputs. Probability of 1 at the output is  49.69 %.
+Total =   6400.  Errors =    356.  Correct =   6044.  ( 94.44 %)   Naive guess =   3220.  ( 50.31 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex89[0m : i/o =    196/      1  [1;36mand =     622[0m  [1;35mlev =  164[0m [1;35m(164.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 196 inputs. Probability of 1 at the output is  50.20 %.
+Total =   6400.  Errors =    385.  Correct =   6015.  ( 93.98 %)   Naive guess =   3213.  ( 50.20 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex72[0m : i/o =     35/      1  [1;36mand =     414[0m  [1;35mlev =  126[0m [1;35m(126.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 35 inputs. Probability of 1 at the output is  24.12 %.
+Total =   6400.  Errors =    263.  Correct =   6137.  ( 95.89 %)   Naive guess =   4856.  ( 75.88 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex90[0m : i/o =    768/      1  [1;36mand =    1908[0m  [1;35mlev =  489[0m [1;35m(489.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 768 inputs. Probability of 1 at the output is  49.34 %.
+Total =   6400.  Errors =   2902.  Correct =   3498.  ( 54.66 %)   Naive guess =   3242.  ( 50.66 %)
+ABC command line: "source script.scr".
+
+[1;37msklearn_aig_15/ex35[0m : i/o =    120/      1  [1;36mand =     232[0m  [1;35mlev =   68[0m [1;35m(68.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 120 inputs. Probability of 1 at the output is  49.95 %.
+Total =   6400.  Errors =    146.  Correct =   6254.  ( 97.72 %)   Naive guess =   3203.  ( 50.05 %)

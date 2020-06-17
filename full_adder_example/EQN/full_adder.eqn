@@ -1,0 +1,5 @@
+# Equations for "full_adder" written by ABC on Wed Jun 17 10:11:30 2020
+INORDER = x0 x1 x2;
+OUTORDER = z1;
+z1 = (x0 * !x2 * x1) + (x1 * x2 * !x0) + (x2 * x0);
+
