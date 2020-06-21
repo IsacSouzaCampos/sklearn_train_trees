@@ -314,16 +314,16 @@ def run(_dir_path, _file_name, _max_depth):
 
 max_depth = 15
 
-for file_name in os.listdir('tree_input_files'):
-    if '.data' not in file_name:
-        continue
-    results = run('tree_input_files', file_name, max_depth)
-    sop = eqn_maker(results[2], get_number_of_inputs(f'IWLS2020-benchmarks/{file_name.replace(".data", ".train.pla")}'))
-
-    file = open(f'sklearn_sop_{max_depth}/{file_name.replace(".data", ".eqn")}', 'w+')
-    file.write(sop)
-    file.close()
-    print(f'{file_name.replace(".data", ".eqn")} finished')
-
-aig_maker(f'sklearn_sop_{max_depth}', f'sklearn_aig_{max_depth}')
+# for file_name in os.listdir('tree_input_files'):
+#     if '.data' not in file_name:
+#         continue
+#     results = run('tree_input_files', file_name, max_depth)
+#     sop = eqn_maker(results[2], get_number_of_inputs(f'IWLS2020-benchmarks/{file_name.replace(".data", ".train.pla")}'))
+#
+#     file = open(f'sklearn_sop_{max_depth}/{file_name.replace(".data", ".eqn")}', 'w+')
+#     file.write(sop)
+#     file.close()
+#     print(f'{file_name.replace(".data", ".eqn")} finished')
+#
+# aig_maker(f'sklearn_sop_{max_depth}', f'sklearn_aig_{max_depth}')
 mltest_data_maker('.', max_depth)

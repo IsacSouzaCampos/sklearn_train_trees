@@ -1,4 +1,5 @@
-read_eqn sklearn_sop_15/ex35.eqn
-strash
-write_aiger sklearn_aig_15/ex35.aig
-&read sklearn_aig_15/ex35.aig; &ps;&mltest IWLS2020-benchmarks/ex35.valid.pla
+read_aiger sklearn_aig_10/optimized_aigers/ex32.aig
+refactor
+rewrite
+write_aiger sklearn_aig_10/optimized_aigers/ex32.aig
+&read sklearn_aig_10/optimized_aigers/ex32.aig; &ps; &mltest IWLS2020-benchmarks/ex32.valid.pla
