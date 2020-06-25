@@ -1,8 +1,8 @@
 import os
 
 
-source_path = 'sklearn_aig_10/optimized_aigers'
-target_path = 'sklearn_aig_10/optimized_aigers'
+source_path = 'modified_pla_espresso/Benchmarks_2_espresso_aig/optimized'
+target_path = 'modified_pla_espresso/Benchmarks_2_espresso_aig/optimized'
 
 file = open(f'{target_path.split("/")[0]}/mltest.txt', 'w+')
 file.truncate(0)

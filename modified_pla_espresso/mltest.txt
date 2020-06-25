@@ -1,0 +1,425 @@
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex40[0m : i/o =     16/      1  [1;36mand =     792[0m  [1;35mlev =   21[0m [1;35m(21.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 16 inputs. Probability of 1 at the output is  50.20 %.
+Total =   6400.  Errors =    666.  Correct =   5734.  ( 89.59 %)   Naive guess =   3213.  ( 50.20 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex68[0m : i/o =     33/      1  [1;36mand =     230[0m  [1;35mlev =   17[0m [1;35m(17.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 33 inputs. Probability of 1 at the output is  67.23 %.
+Total =   6400.  Errors =    305.  Correct =   6095.  ( 95.23 %)   Naive guess =   4303.  ( 67.23 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex43[0m : i/o =     18/      1  [1;36mand =    1463[0m  [1;35mlev =   21[0m [1;35m(21.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 18 inputs. Probability of 1 at the output is  50.86 %.
+Total =   6400.  Errors =   1858.  Correct =   4542.  ( 70.97 %)   Naive guess =   3255.  ( 50.86 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex59[0m : i/o =    394/      1  [1;36mand =     490[0m  [1;35mlev =   27[0m [1;35m(27.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 394 inputs. Probability of 1 at the output is  49.30 %.
+Total =   6400.  Errors =    903.  Correct =   5497.  ( 85.89 %)   Naive guess =   3245.  ( 50.70 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex87[0m : i/o =    196/      1  [1;36mand =     264[0m  [1;35mlev =   21[0m [1;35m(21.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 196 inputs. Probability of 1 at the output is  49.94 %.
+Total =   6400.  Errors =    307.  Correct =   6093.  ( 95.20 %)   Naive guess =   3204.  ( 50.06 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex49[0m : i/o =    130/      1  [1;36mand =    1958[0m  [1;35mlev =   78[0m [1;35m(78.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 130 inputs. Probability of 1 at the output is  49.73 %.
+Total =   6400.  Errors =   3093.  Correct =   3307.  ( 51.67 %)   Naive guess =   3217.  ( 50.27 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex55[0m : i/o =     42/      1  [1;36mand =      69[0m  [1;35mlev =   12[0m [1;35m(12.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 42 inputs. Probability of 1 at the output is  20.09 %.
+Total =   6400.  Errors =     40.  Correct =   6360.  ( 99.38 %)   Naive guess =   5114.  ( 79.91 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex31[0m : i/o =     40/      1  [1;36mand =     348[0m  [1;35mlev =   16[0m [1;35m(16.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 40 inputs. Probability of 1 at the output is  49.92 %.
+Total =   6400.  Errors =    499.  Correct =   5901.  ( 92.20 %)   Naive guess =   3205.  ( 50.08 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex34[0m : i/o =    100/      1  [1;36mand =     346[0m  [1;35mlev =   17[0m [1;35m(17.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 100 inputs. Probability of 1 at the output is  51.11 %.
+Total =   6400.  Errors =    465.  Correct =   5935.  ( 92.73 %)   Naive guess =   3271.  ( 51.11 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex06[0m : i/o =    256/      1  [1;36mand =    1868[0m  [1;35mlev =   99[0m [1;35m(99.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 256 inputs. Probability of 1 at the output is  50.92 %.
+Total =   6400.  Errors =   3179.  Correct =   3221.  ( 50.33 %)   Naive guess =   3259.  ( 50.92 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex02[0m : i/o =     64/      1  [1;36mand =    1277[0m  [1;35mlev =   35[0m [1;35m(35.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 64 inputs. Probability of 1 at the output is  50.12 %.
+Total =   6400.  Errors =   1916.  Correct =   4484.  ( 70.06 %)   Naive guess =   3208.  ( 50.12 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex44[0m : i/o =     64/      1  [1;36mand =    1976[0m  [1;35mlev =   39[0m [1;35m(39.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 64 inputs. Probability of 1 at the output is  49.53 %.
+Total =   6400.  Errors =   3228.  Correct =   3172.  ( 49.56 %)   Naive guess =   3230.  ( 50.47 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex70[0m : i/o =     23/      1  [1;36mand =     148[0m  [1;35mlev =   19[0m [1;35m(19.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 23 inputs. Probability of 1 at the output is  93.23 %.
+Total =   6400.  Errors =    133.  Correct =   6267.  ( 97.92 %)   Naive guess =   5967.  ( 93.23 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex36[0m : i/o =    140/      1  [1;36mand =     450[0m  [1;35mlev =   24[0m [1;35m(24.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 140 inputs. Probability of 1 at the output is  49.88 %.
+Total =   6400.  Errors =    581.  Correct =   5819.  ( 90.92 %)   Naive guess =   3208.  ( 50.12 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex03[0m : i/o =     64/      1  [1;36mand =     399[0m  [1;35mlev =   16[0m [1;35m(16.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 64 inputs. Probability of 1 at the output is  50.22 %.
+Total =   6400.  Errors =    599.  Correct =   5801.  ( 90.64 %)   Naive guess =   3214.  ( 50.22 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex24[0m : i/o =     64/      1  [1;36mand =    1928[0m  [1;35mlev =   44[0m [1;35m(44.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 64 inputs. Probability of 1 at the output is  50.61 %.
+Total =   6400.  Errors =   3167.  Correct =   3233.  ( 50.52 %)   Naive guess =   3239.  ( 50.61 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex11[0m : i/o =     64/      1  [1;36mand =    1402[0m  [1;35mlev =   31[0m [1;35m(31.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 64 inputs. Probability of 1 at the output is  35.23 %.
+Total =   6400.  Errors =   2211.  Correct =   4189.  ( 65.45 %)   Naive guess =   4145.  ( 64.77 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex37[0m : i/o =    160/      1  [1;36mand =     360[0m  [1;35mlev =   22[0m [1;35m(22.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 160 inputs. Probability of 1 at the output is  50.83 %.
+Total =   6400.  Errors =    552.  Correct =   5848.  ( 91.38 %)   Naive guess =   3253.  ( 50.83 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex58[0m : i/o =     80/      1  [1;36mand =     526[0m  [1;35mlev =   27[0m [1;35m(27.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 80 inputs. Probability of 1 at the output is  24.47 %.
+Total =   6400.  Errors =    716.  Correct =   5684.  ( 88.81 %)   Naive guess =   4834.  ( 75.53 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex10[0m : i/o =     32/      1  [1;36mand =     921[0m  [1;35mlev =   21[0m [1;35m(21.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 32 inputs. Probability of 1 at the output is  34.81 %.
+Total =   6400.  Errors =   1330.  Correct =   5070.  ( 79.22 %)   Naive guess =   4172.  ( 65.19 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex67[0m : i/o =     46/      1  [1;36mand =     914[0m  [1;35mlev =   31[0m [1;35m(31.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 46 inputs. Probability of 1 at the output is  77.20 %.
+Total =   6400.  Errors =   1207.  Correct =   5193.  ( 81.14 %)   Naive guess =   4941.  ( 77.20 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex53[0m : i/o =     45/      1  [1;36mand =    1032[0m  [1;35mlev =   30[0m [1;35m(30.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 45 inputs. Probability of 1 at the output is  46.75 %.
+Total =   6400.  Errors =   1521.  Correct =   4879.  ( 76.23 %)   Naive guess =   3408.  ( 53.25 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex74[0m : i/o =     16/      1  [1;36mand =    2173[0m  [1;35mlev =   23[0m [1;35m(23.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 16 inputs. Probability of 1 at the output is  49.83 %.
+Total =   6400.  Errors =   3150.  Correct =   3250.  ( 50.78 %)   Naive guess =   3211.  ( 50.17 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex76[0m : i/o =     16/      1  [1;36mand =     692[0m  [1;35mlev =   21[0m [1;35m(21.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 16 inputs. Probability of 1 at the output is  21.23 %.
+Total =   6400.  Errors =    939.  Correct =   5461.  ( 85.33 %)   Naive guess =   5041.  ( 78.77 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex77[0m : i/o =     16/      1  [1;36mand =     985[0m  [1;35mlev =   20[0m [1;35m(20.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 16 inputs. Probability of 1 at the output is  78.77 %.
+Total =   6400.  Errors =   1225.  Correct =   5175.  ( 80.86 %)   Naive guess =   5041.  ( 78.77 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex66[0m : i/o =     47/      1  [1;36mand =     761[0m  [1;35mlev =   29[0m [1;35m(29.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 47 inputs. Probability of 1 at the output is  77.80 %.
+Total =   6400.  Errors =   1040.  Correct =   5360.  ( 83.75 %)   Naive guess =   4979.  ( 77.80 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex47[0m : i/o =     66/      1  [1;36mand =    2170[0m  [1;35mlev =   44[0m [1;35m(44.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 66 inputs. Probability of 1 at the output is  50.53 %.
+Total =   6400.  Errors =   3218.  Correct =   3182.  ( 49.72 %)   Naive guess =   3234.  ( 50.53 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex75[0m : i/o =     16/      1  [1;36mand =     669[0m  [1;35mlev =   17[0m [1;35m(17.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 16 inputs. Probability of 1 at the output is  59.08 %.
+Total =   6400.  Errors =    950.  Correct =   5450.  ( 85.16 %)   Naive guess =   3781.  ( 59.08 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex29[0m : i/o =    256/      1  [1;36mand =       3[0m  [1;35mlev =    2[0m [1;35m(2.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 256 inputs. Probability of 1 at the output is  51.28 %.
+Total =   6400.  Errors =      0.  Correct =   6400.  (100.00 %)   Naive guess =   3282.  ( 51.28 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex51[0m : i/o =     44/      1  [1;36mand =    1901[0m  [1;35mlev =   33[0m [1;35m(33.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 44 inputs. Probability of 1 at the output is  51.67 %.
+Total =   6400.  Errors =   3116.  Correct =   3284.  ( 51.31 %)   Naive guess =   3307.  ( 51.67 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex30[0m : i/o =     20/      1  [1;36mand =     177[0m  [1;35mlev =   14[0m [1;35m(14.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 20 inputs. Probability of 1 at the output is  50.19 %.
+Total =   6400.  Errors =    189.  Correct =   6211.  ( 97.05 %)   Naive guess =   3212.  ( 50.19 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex22[0m : i/o =     32/      1  [1;36mand =    1913[0m  [1;35mlev =   25[0m [1;35m(25.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 32 inputs. Probability of 1 at the output is  50.28 %.
+Total =   6400.  Errors =   3243.  Correct =   3157.  ( 49.33 %)   Naive guess =   3218.  ( 50.28 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex33[0m : i/o =     80/      1  [1;36mand =     317[0m  [1;35mlev =   20[0m [1;35m(20.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 80 inputs. Probability of 1 at the output is  49.73 %.
+Total =   6400.  Errors =    440.  Correct =   5960.  ( 93.12 %)   Naive guess =   3217.  ( 50.27 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex78[0m : i/o =     16/      1  [1;36mand =    1874[0m  [1;35mlev =   21[0m [1;35m(21.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 16 inputs. Probability of 1 at the output is  62.80 %.
+Total =   6400.  Errors =   2661.  Correct =   3739.  ( 58.42 %)   Naive guess =   4019.  ( 62.80 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex65[0m : i/o =     19/      1  [1;36mand =      76[0m  [1;35mlev =   15[0m [1;35m(15.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 19 inputs. Probability of 1 at the output is  33.56 %.
+Total =   6400.  Errors =     62.  Correct =   6338.  ( 99.03 %)   Naive guess =   4252.  ( 66.44 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex86[0m : i/o =    196/      1  [1;36mand =     215[0m  [1;35mlev =   18[0m [1;35m(18.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 196 inputs. Probability of 1 at the output is  47.73 %.
+Total =   6400.  Errors =    263.  Correct =   6137.  ( 95.89 %)   Naive guess =   3345.  ( 52.27 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex07[0m : i/o =    256/      1  [1;36mand =    1098[0m  [1;35mlev =   52[0m [1;35m(52.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 256 inputs. Probability of 1 at the output is  50.14 %.
+Total =   6400.  Errors =   1734.  Correct =   4666.  ( 72.91 %)   Naive guess =   3209.  ( 50.14 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex21[0m : i/o =     16/      1  [1;36mand =      17[0m  [1;35mlev =    6[0m [1;35m(6.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 16 inputs. Probability of 1 at the output is  49.84 %.
+Total =   6400.  Errors =      0.  Correct =   6400.  (100.00 %)   Naive guess =   3210.  ( 50.16 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex46[0m : i/o =    128/      1  [1;36mand =    1966[0m  [1;35mlev =   76[0m [1;35m(76.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 128 inputs. Probability of 1 at the output is  50.11 %.
+Total =   6400.  Errors =   3222.  Correct =   3178.  ( 49.66 %)   Naive guess =   3207.  ( 50.11 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex41[0m : i/o =     10/      1  [1;36mand =      97[0m  [1;35mlev =   12[0m [1;35m(12.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 10 inputs. Probability of 1 at the output is  51.48 %.
+Total =   6400.  Errors =      0.  Correct =   6400.  (100.00 %)   Naive guess =   3295.  ( 51.48 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex39[0m : i/o =    200/      1  [1;36mand =     633[0m  [1;35mlev =   33[0m [1;35m(33.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 200 inputs. Probability of 1 at the output is  49.81 %.
+Total =   6400.  Errors =    897.  Correct =   5503.  ( 85.98 %)   Naive guess =   3212.  ( 50.19 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex71[0m : i/o =     23/      1  [1;36mand =     101[0m  [1;35mlev =   16[0m [1;35m(16.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 23 inputs. Probability of 1 at the output is   9.52 %.
+Total =   6400.  Errors =     98.  Correct =   6302.  ( 98.47 %)   Naive guess =   5791.  ( 90.48 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex81[0m : i/o =    196/      1  [1;36mand =     490[0m  [1;35mlev =   19[0m [1;35m(19.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 196 inputs. Probability of 1 at the output is  50.95 %.
+Total =   6400.  Errors =    604.  Correct =   5796.  ( 90.56 %)   Naive guess =   3261.  ( 50.95 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex64[0m : i/o =     47/      1  [1;36mand =       7[0m  [1;35mlev =    5[0m [1;35m(5.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 47 inputs. Probability of 1 at the output is  23.83 %.
+Total =   6400.  Errors =      0.  Correct =   6400.  (100.00 %)   Naive guess =   4875.  ( 76.17 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex69[0m : i/o =     16/      1  [1;36mand =      27[0m  [1;35mlev =   11[0m [1;35m(11.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 16 inputs. Probability of 1 at the output is  27.70 %.
+Total =   6400.  Errors =      8.  Correct =   6392.  ( 99.88 %)   Naive guess =   4627.  ( 72.30 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex23[0m : i/o =     32/      1  [1;36mand =       3[0m  [1;35mlev =    2[0m [1;35m(2.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 32 inputs. Probability of 1 at the output is  49.53 %.
+Total =   6400.  Errors =      0.  Correct =   6400.  (100.00 %)   Naive guess =   3230.  ( 50.47 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex05[0m : i/o =    128/      1  [1;36mand =     545[0m  [1;35mlev =   23[0m [1;35m(23.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 128 inputs. Probability of 1 at the output is  49.59 %.
+Total =   6400.  Errors =    851.  Correct =   5549.  ( 86.70 %)   Naive guess =   3226.  ( 50.41 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex18[0m : i/o =    256/      1  [1;36mand =    1072[0m  [1;35mlev =   56[0m [1;35m(56.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 256 inputs. Probability of 1 at the output is  49.95 %.
+Total =   6400.  Errors =   1607.  Correct =   4793.  ( 74.89 %)   Naive guess =   3203.  ( 50.05 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex82[0m : i/o =    196/      1  [1;36mand =     316[0m  [1;35mlev =   18[0m [1;35m(18.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 196 inputs. Probability of 1 at the output is  48.78 %.
+Total =   6400.  Errors =    407.  Correct =   5993.  ( 93.64 %)   Naive guess =   3278.  ( 51.22 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex16[0m : i/o =     64/      1  [1;36mand =     841[0m  [1;35mlev =   31[0m [1;35m(31.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 64 inputs. Probability of 1 at the output is  50.64 %.
+Total =   6400.  Errors =   1269.  Correct =   5131.  ( 80.17 %)   Naive guess =   3241.  ( 50.64 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex80[0m : i/o =    196/      1  [1;36mand =     518[0m  [1;35mlev =   18[0m [1;35m(18.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 196 inputs. Probability of 1 at the output is  48.75 %.
+Total =   6400.  Errors =    685.  Correct =   5715.  ( 89.30 %)   Naive guess =   3280.  ( 51.25 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex52[0m : i/o =     59/      1  [1;36mand =    1826[0m  [1;35mlev =   36[0m [1;35m(36.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 59 inputs. Probability of 1 at the output is  50.06 %.
+Total =   6400.  Errors =   2998.  Correct =   3402.  ( 53.16 %)   Naive guess =   3204.  ( 50.06 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex17[0m : i/o =    128/      1  [1;36mand =    1689[0m  [1;35mlev =   70[0m [1;35m(70.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 128 inputs. Probability of 1 at the output is  49.92 %.
+Total =   6400.  Errors =   1817.  Correct =   4583.  ( 71.61 %)   Naive guess =   3205.  ( 50.08 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex26[0m : i/o =    128/      1  [1;36mand =    2195[0m  [1;35mlev =   76[0m [1;35m(76.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 128 inputs. Probability of 1 at the output is  49.94 %.
+Total =   6400.  Errors =   3244.  Correct =   3156.  ( 49.31 %)   Naive guess =   3204.  ( 50.06 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex01[0m : i/o =     32/      1  [1;36mand =     258[0m  [1;35mlev =   16[0m [1;35m(16.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 32 inputs. Probability of 1 at the output is  49.80 %.
+Total =   6400.  Errors =    315.  Correct =   6085.  ( 95.08 %)   Naive guess =   3213.  ( 50.20 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex25[0m : i/o =     64/      1  [1;36mand =       3[0m  [1;35mlev =    2[0m [1;35m(2.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 64 inputs. Probability of 1 at the output is  48.91 %.
+Total =   6400.  Errors =      0.  Correct =   6400.  (100.00 %)   Naive guess =   3270.  ( 51.09 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex79[0m : i/o =     16/      1  [1;36mand =     985[0m  [1;35mlev =   20[0m [1;35m(20.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 16 inputs. Probability of 1 at the output is  78.77 %.
+Total =   6400.  Errors =   1225.  Correct =   5175.  ( 80.86 %)   Naive guess =   5041.  ( 78.77 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex15[0m : i/o =     32/      1  [1;36mand =     773[0m  [1;35mlev =   25[0m [1;35m(25.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 32 inputs. Probability of 1 at the output is  48.89 %.
+Total =   6400.  Errors =   1029.  Correct =   5371.  ( 83.92 %)   Naive guess =   3271.  ( 51.11 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex57[0m : i/o =     24/      1  [1;36mand =      49[0m  [1;35mlev =   12[0m [1;35m(12.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 24 inputs. Probability of 1 at the output is  15.12 %.
+Total =   6400.  Errors =     25.  Correct =   6375.  ( 99.61 %)   Naive guess =   5432.  ( 84.88 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex28[0m : i/o =    256/      1  [1;36mand =    1853[0m  [1;35mlev =  100[0m [1;35m(100.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 256 inputs. Probability of 1 at the output is  49.03 %.
+Total =   6400.  Errors =   3158.  Correct =   3242.  ( 50.66 %)   Naive guess =   3262.  ( 50.97 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex89[0m : i/o =    196/      1  [1;36mand =     303[0m  [1;35mlev =   19[0m [1;35m(19.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 196 inputs. Probability of 1 at the output is  50.20 %.
+Total =   6400.  Errors =    353.  Correct =   6047.  ( 94.48 %)   Naive guess =   3213.  ( 50.20 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex61[0m : i/o =     37/      1  [1;36mand =      56[0m  [1;35mlev =   11[0m [1;35m(11.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 37 inputs. Probability of 1 at the output is  25.00 %.
+Total =   6400.  Errors =     59.  Correct =   6341.  ( 99.08 %)   Naive guess =   4800.  ( 75.00 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex73[0m : i/o =     16/      1  [1;36mand =     503[0m  [1;35mlev =   19[0m [1;35m(19.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 16 inputs. Probability of 1 at the output is  65.09 %.
+Total =   6400.  Errors =    504.  Correct =   5896.  ( 92.12 %)   Naive guess =   4166.  ( 65.09 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex84[0m : i/o =    196/      1  [1;36mand =     294[0m  [1;35mlev =   19[0m [1;35m(19.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 196 inputs. Probability of 1 at the output is  51.31 %.
+Total =   6400.  Errors =    341.  Correct =   6059.  ( 94.67 %)   Naive guess =   3284.  ( 51.31 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex12[0m : i/o =    128/      1  [1;36mand =    1445[0m  [1;35mlev =   43[0m [1;35m(43.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 128 inputs. Probability of 1 at the output is  35.42 %.
+Total =   6400.  Errors =   2247.  Correct =   4153.  ( 64.89 %)   Naive guess =   4133.  ( 64.58 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex27[0m : i/o =    128/      1  [1;36mand =       3[0m  [1;35mlev =    2[0m [1;35m(2.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 128 inputs. Probability of 1 at the output is  50.75 %.
+Total =   6400.  Errors =      0.  Correct =   6400.  (100.00 %)   Naive guess =   3248.  ( 50.75 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex45[0m : i/o =     34/      1  [1;36mand =    1945[0m  [1;35mlev =   26[0m [1;35m(26.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 34 inputs. Probability of 1 at the output is  50.33 %.
+Total =   6400.  Errors =   3256.  Correct =   3144.  ( 49.12 %)   Naive guess =   3221.  ( 50.33 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex85[0m : i/o =    196/      1  [1;36mand =     339[0m  [1;35mlev =   15[0m [1;35m(15.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 196 inputs. Probability of 1 at the output is  49.69 %.
+Total =   6400.  Errors =    334.  Correct =   6066.  ( 94.78 %)   Naive guess =   3220.  ( 50.31 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex48[0m : i/o =    256/      1  [1;36mand =    1849[0m  [1;35mlev =   96[0m [1;35m(96.00)[0m  mem = 0.03 MB
+Finished reading 6400 simulation patterns for 256 inputs. Probability of 1 at the output is  50.03 %.
+Total =   6400.  Errors =   3190.  Correct =   3210.  ( 50.16 %)   Naive guess =   3202.  ( 50.03 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex63[0m : i/o =     38/      1  [1;36mand =     104[0m  [1;35mlev =   16[0m [1;35m(16.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 38 inputs. Probability of 1 at the output is  11.42 %.
+Total =   6400.  Errors =     94.  Correct =   6306.  ( 98.53 %)   Naive guess =   5669.  ( 88.58 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex83[0m : i/o =    196/      1  [1;36mand =     257[0m  [1;35mlev =   25[0m [1;35m(25.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 196 inputs. Probability of 1 at the output is  48.41 %.
+Total =   6400.  Errors =    212.  Correct =   6188.  ( 96.69 %)   Naive guess =   3302.  ( 51.59 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex54[0m : i/o =     48/      1  [1;36mand =     322[0m  [1;35mlev =   21[0m [1;35m(21.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 48 inputs. Probability of 1 at the output is  49.58 %.
+Total =   6400.  Errors =    484.  Correct =   5916.  ( 92.44 %)   Naive guess =   3227.  ( 50.42 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex04[0m : i/o =    128/      1  [1;36mand =    1560[0m  [1;35mlev =   64[0m [1;35m(64.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 128 inputs. Probability of 1 at the output is  49.45 %.
+Total =   6400.  Errors =   2342.  Correct =   4058.  ( 63.41 %)   Naive guess =   3235.  ( 50.55 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex20[0m : i/o =     16/      1  [1;36mand =    1955[0m  [1;35mlev =   21[0m [1;35m(21.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 16 inputs. Probability of 1 at the output is  50.02 %.
+Total =   6400.  Errors =   2754.  Correct =   3646.  ( 56.97 %)   Naive guess =   3201.  ( 50.02 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex62[0m : i/o =     52/      1  [1;36mand =    1094[0m  [1;35mlev =   39[0m [1;35m(39.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 52 inputs. Probability of 1 at the output is  83.34 %.
+Total =   6400.  Errors =   1121.  Correct =   5279.  ( 82.48 %)   Naive guess =   5334.  ( 83.34 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex38[0m : i/o =    180/      1  [1;36mand =     468[0m  [1;35mlev =   20[0m [1;35m(20.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 180 inputs. Probability of 1 at the output is  50.00 %.
+Total =   6400.  Errors =    685.  Correct =   5715.  ( 89.30 %)   Naive guess =   3200.  ( 50.00 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex00[0m : i/o =     32/      1  [1;36mand =     644[0m  [1;35mlev =   23[0m [1;35m(23.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 32 inputs. Probability of 1 at the output is  49.41 %.
+Total =   6400.  Errors =    841.  Correct =   5559.  ( 86.86 %)   Naive guess =   3238.  ( 50.59 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex50[0m : i/o =     19/      1  [1;36mand =      56[0m  [1;35mlev =   17[0m [1;35m(17.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 19 inputs. Probability of 1 at the output is  42.81 %.
+Total =   6400.  Errors =     16.  Correct =   6384.  ( 99.75 %)   Naive guess =   3660.  ( 57.19 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex72[0m : i/o =     35/      1  [1;36mand =     344[0m  [1;35mlev =   22[0m [1;35m(22.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 35 inputs. Probability of 1 at the output is  24.12 %.
+Total =   6400.  Errors =    399.  Correct =   6001.  ( 93.77 %)   Naive guess =   4856.  ( 75.88 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex56[0m : i/o =     83/      1  [1;36mand =     218[0m  [1;35mlev =   27[0m [1;35m(27.00)[0m  mem = 0.00 MB
+Finished reading 6400 simulation patterns for 83 inputs. Probability of 1 at the output is   8.98 %.
+Total =   6400.  Errors =    365.  Correct =   6035.  ( 94.30 %)   Naive guess =   5825.  ( 91.02 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex35[0m : i/o =    120/      1  [1;36mand =     329[0m  [1;35mlev =   20[0m [1;35m(20.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 120 inputs. Probability of 1 at the output is  49.95 %.
+Total =   6400.  Errors =    473.  Correct =   5927.  ( 92.61 %)   Naive guess =   3203.  ( 50.05 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex60[0m : i/o =     43/      1  [1;36mand =     550[0m  [1;35mlev =   22[0m [1;35m(22.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 43 inputs. Probability of 1 at the output is  31.80 %.
+Total =   6400.  Errors =    733.  Correct =   5667.  ( 88.55 %)   Naive guess =   4365.  ( 68.20 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex42[0m : i/o =     32/      1  [1;36mand =    1935[0m  [1;35mlev =   25[0m [1;35m(25.00)[0m  mem = 0.02 MB
+Finished reading 6400 simulation patterns for 32 inputs. Probability of 1 at the output is  49.84 %.
+Total =   6400.  Errors =   3200.  Correct =   3200.  ( 50.00 %)   Naive guess =   3210.  ( 50.16 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex88[0m : i/o =    196/      1  [1;36mand =     352[0m  [1;35mlev =   24[0m [1;35m(24.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 196 inputs. Probability of 1 at the output is  47.73 %.
+Total =   6400.  Errors =    367.  Correct =   6033.  ( 94.27 %)   Naive guess =   3345.  ( 52.27 %)
+ABC command line: "source script.scr".
+
+[1;37mmodified_pla_espresso/Benchmarks_2_espresso_aig/optimized/ex32[0m : i/o =     60/      1  [1;36mand =     380[0m  [1;35mlev =   19[0m [1;35m(19.00)[0m  mem = 0.01 MB
+Finished reading 6400 simulation patterns for 60 inputs. Probability of 1 at the output is  51.45 %.
+Total =   6400.  Errors =    495.  Correct =   5905.  ( 92.27 %)   Naive guess =   3293.  ( 51.45 %)

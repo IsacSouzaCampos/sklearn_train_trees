@@ -13,8 +13,8 @@ using namespace std;
 void processing_order(map<int, list<int>>&);
 
 string type = "train";
-string source_name = "Benchmarks_2";
-string destination_name = "Benchmarks_2_espresso/ex";
+string source_name = "Benchmarks_3";
+string destination_name = "Benchmarks_3_espresso/ex";
 
 int main(int argc, char** argv) {
     map<int, list<int>> elements_ordered; // ordered by inputs size
@@ -22,7 +22,7 @@ int main(int argc, char** argv) {
 
 
     processing_order(elements_ordered);
-    vector<int> finished_aigers = {40, 68, 43, 59, 87, 49, 55, 31, 34, 06, 02, 44, 70, 36, 03, 24, 11, 37, 58, 10, 67, 53, 74, 76, 77, 66, 75, 29, 51, 30, 22, 33, 78, 65, 86, 07, 21, 46, 41, 39, 71, 81, 64, 69, 23, 05, 18, 82, 16, 80, 52, 01, 25, 79, 15, 57, 28, 89, 61, 73, 84, 12, 27, 45, 85, 48, 63, 54, 04, 20, 38, 00, 50, 72, 56, 35, 60, 42, 88, 32};
+    vector<int> finished_aigers = {8, 9, 14, 19, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99};
     vector<int>::iterator it;
 
     vector<int> final_order;

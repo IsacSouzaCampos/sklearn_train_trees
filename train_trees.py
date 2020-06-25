@@ -206,8 +206,10 @@ def mltest_data_maker(_source_path, _max_depth):
             elif 'does not match the AIG' in line:
                 accuracy += f'{ex} failed\n'
 
-    num_of_ands_file = open(f'sk_{_max_depth}_num_of_ands', 'w+')
-    accuracy_file = open(f'sk_{_max_depth}_accuracy', 'w+')
+    # num_of_ands_file = open(f'sk_{_max_depth}_num_of_ands', 'w+')
+    # accuracy_file = open(f'sk_{_max_depth}_accuracy', 'w+')
+    num_of_ands_file = open(f'{_source_path}/num_of_ands', 'w+')
+    accuracy_file = open(f'{_source_path}/accuracy', 'w+')
     print(num_of_ands)
     num_of_ands_file.write(order_ex_results(num_of_ands))
     print(accuracy)
@@ -326,4 +328,4 @@ max_depth = 15
 #     print(f'{file_name.replace(".data", ".eqn")} finished')
 #
 # aig_maker(f'sklearn_sop_{max_depth}', f'sklearn_aig_{max_depth}')
-mltest_data_maker('.', max_depth)
+mltest_data_maker('sklearn_aig_15', max_depth)
