@@ -13,8 +13,8 @@ using namespace std;
 void processing_order(map<int, list<int>>&);
 
 string type = "train";
-string source_name = "Benchmarks_3";
-string destination_name = "Benchmarks_3_espresso/ex";
+string source_name = "benchmarks";
+string destination_name = "benchmarks_espresso/ex";
 
 int main(int argc, char** argv) {
     map<int, list<int>> elements_ordered; // ordered by inputs size
